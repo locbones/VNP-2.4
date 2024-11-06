@@ -86,6 +86,7 @@
     "FontColorPartyOrange": { "r": 196, "g": 129, "b": 0, "a": 255 },
     "FontColorPartyGreen": {"r": 79, "g": 194, "b": 56, "a": 255 },
     "FontColorBonesyRed": { "r": 230, "g": 5, "b": 10, "a": 255 },
+    "FontColorFlatBlue": { "r": 70, "g": 142, "b": 168, "a": 255 },
 
     // Text color presets
     "CarouselEnabledColor": "$FontColorLightGold",
@@ -436,6 +437,11 @@
     },
     "RWInfoR": {
         "fontColor": "$FontColorBonesyRed",
+        "pointSize": "$MediumPanelFontSize",
+        "alignment": { "h": "left", "v": "fit" }
+    },
+    "RWInfoFB": {
+        "fontColor": "$FontColorFlatBlue",
         "pointSize": "$MediumPanelFontSize",
         "alignment": { "h": "left", "v": "fit" }
     },

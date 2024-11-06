@@ -54,12 +54,12 @@
     },
     "RecipeSettingsText": {
         "fontColor": "$FontColorLightGold",
-        "pointSize": "$MediumSmallFontSize",
+        "pointSize": "$MediumFontSize",
         "spacing" : "$ReducedSpacing",
         "alignment": { "h": "left", "v": "center" },
     },
     "StyleSettingsCarousel": {
-        "pointSize": "$MediumSmallFontSize",
+        "pointSize": "$MediumFontSize",
         "spacing" : "$ReducedSpacing",
         "alignment": { "h": "center", "v": "center" },
     },
