@@ -1,4 +1,28 @@
 {
     "name": "VNP-MP",
-    "savepath": "VNP-MP"
+    "savepath": "VNP"
+ 
+/*
+--My Mod Details--
+Mod Download: https://github.com/locbones/VNP-2.4/archive/refs/heads/main.zip
+Mod Config Download: https://drive.google.com/uc?export=download&id=11R7acrb7VVHlUEOV9J96NUTrBotzkCUK
+Mod Version: Final (1.2.0 MP)
+News 1 Title: "Vanilla++ Final Update Released! (1.2.0 MP)"
+News 1 Message: "This update fixes some reported compatibility issues with D2RLAN. Thanks for your patience."
+News 2 Title: "Thank You!"
+News 2 Message: "I would like to thank everyone who provided support and kind words - you guys are the real rockstars."
+ 
+--General Options--
+Map Layouts: Enabled
+UI Themes: Enabled
+Customizations: Enabled
+Vault Access: Enabled
+
+--Additional Options--
+Item Icons: Enabled
+Runeword Sorting: Disabled
+HUD Display: Enabled
+Monster Stats Display: Enabled
+*/
+
 }
