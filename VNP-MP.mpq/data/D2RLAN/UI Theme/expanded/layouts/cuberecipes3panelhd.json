@@ -1,0 +1,346 @@
+{
+    "type": "VideoOptionsPanel", "name": "CubeRecipes3Panel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": true
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll",
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd",
+                    }
+                },
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController",
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$CubeOptionsTableRowHeight",
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Socket Upgrades",
+                                        "style": "$StyleSettingsTitle",
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        }
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Tal + Thul + Topaz + Normal Torso Armor = Socketed Torso Armor",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Ral + Amn + Amethyst + Normal Weapon = Socketed Weapon",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Ral + Thul + Sapphire + Normal Helm = Socketed Helm",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Tal + Amn + Ruby + Normal Shield = Socketed Shield",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "3 Gems + Magic Weapon = Socketed Magic Weapon",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "3 Gems + Socketed Weapon = Socketed Magic Weapon",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Quality Upgrades",
+                                        "style": "$StyleSettingsTitle",
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        }
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Eld + Gem + Low Quality Weapon = Normal Weapon",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "El + Gem + Low Quality Armor = Normal Armor",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Skull + Rare Item + Stone of Jordan = High Quality Rare Item",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Ort + Amn + Sapphire + Basic Rare Weapon = Exceptional Rare Weapon",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Ral + Thul + Amethyst + Basic Rare Armor = Exceptional Rare Armor",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Fal + Um + Sapphire + Exceptional Rare Weapon = Elite Rare Weapon",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Ko + Pul + Amethyst + Exceptional Rare Armor = Elite Rare Armor",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Ral + Sol + Emerald + Basic Unique Weapon = Exceptional Unique Weapon",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Tal + Shael + Diamond + Basic Unique Armor = Exceptional Unique Armor",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Lum + Pul + Emerald + Exceptional Unique Weapon = Elite Unique Weapon",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Ko + Lem + Diamond + Exceptional Unique Armor = Elite Unique Armor",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Ral + Sol + Emerald + Basic Set Weapon = Exceptional Set Weapon",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Tal + Shael + Diamond + Basic Set Armor = Exceptional Set Armor",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Lum + Pul + Emerald + Exceptional Set Weapon = Elite Set Weapon",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Ko + Lem + Diamond + Exceptional Set Armor = Elite Set Armor",
+                                        "style": "$RecipeSettingsText",
+                                    }
+                                },
+                            ]
+                        },
+                    ]
+                }
+            ]
+        },
+    ]
+}

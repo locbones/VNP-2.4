@@ -1,0 +1,886 @@
+description	enabled	ladder	min diff	version	op	param	value	class	numinputs	input 1	input 2	input 3	input 4	input 5	input 6	input 7	output	lvl	plvl	ilvl	mod 1	mod 1 chance	mod 1 param	mod 1 min	mod 1 max	mod 2	mod 2 chance	mod 2 param	mod 2 min	mod 2 max	mod 3	mod 3 chance	mod 3 param	mod 3 min	mod 3 max	mod 4	mod 4 chance	mod 4 param	mod 4 min	mod 4 max	mod 5	mod 5 chance	mod 5 param	mod 5 min	mod 5 max	output b	b lvl	b plvl	b ilvl	b mod 1	b mod 1 chance	b mod 1 param	b mod 1 min	b mod 1 max	b mod 2	b mod 2 chance	b mod 2 param	b mod 2 min	b mod 2 max	b mod 3	b mod 3 chance	b mod 3 param	b mod 3 min	b mod 3 max	b mod 4	b mod 4 chance	b mod 4 param	b mod 4 min	b mod 4 max	b mod 5	b mod 5 chance	b mod 5 param	b mod 5 min	b mod 5 max	output c	c lvl	c plvl	c ilvl	c mod 1	c mod 1 chance	c mod 1 param	c mod 1 min	c mod 1 max	c mod 2	c mod 2 chance	c mod 2 param	c mod 2 min	c mod 2 max	c mod 3	c mod 3 chance	c mod 3 param	c mod 3 min	c mod 3 max	c mod 4	c mod 4 chance	c mod 4 param	c mod 4 min	c mod 4 max	c mod 5	c mod 5 chance	c mod 5 param	c mod 5 min	c mod 5 max	*eol
+	1								1	tsc							helm,nor	99			sock			3	3																																																																															0
+	1								1	isc							r16																													r32																													r19																													0
+GFX Change	1			100					2	misc	isc						usetype,mod																																																																																							0
+Staff of Kings + Amulet of the Viper -> Horadric Staff	1			0	28				2	msf	vip						hst																																																																																							0
+Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will	1			0	28				4	qf1	qhr	qey	qbr				qf2																																																																																							0
+Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level	1			0	28				2	leg	tbk						Cow Portal																																																																																							0
+3 Healing Potions (Any) + 3 Mana Potions (Any) + 2 Gems -> Full Rejuvenation Potion	1			0					8	"hpot,qty=3"	"mpot,qty=3"	"gem4,qty=2"					rvl																																																																																							0
+3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Gem  -> Rejuvenation Potion	1			0					7	"hpot,qty=3"	"mpot,qty=3"	gem4					rvs																																																																																							0
+3 Rejuvenation Potions -> Full Rejuvenation Potion	1			0					3	"rvs,qty=3"							rvl																																																																																							0
+6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet	1			0					7	"amu,mag"	gpv	gpy	gpb	gpg	gpr	gpw	"amu,mag,pre=331"	50																																																																																						0
+1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring	1			0					3	"rin,mag"	gpr	opm					"rin,mag,pre=372"	30																																																																																						0
+1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring	1			0					3	"rin,mag"	gpb	wms					"rin,mag,pre=353"	30																																																																																						0
+1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring	1			0					3	"rin,mag"	gpy	rvs					"rin,mag,pre=392"	30																																																																																						0
+1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring	1			0					3	"rin,mag"	gpg	yps					"rin,mag,pre=412"	30																																																																																						0
+3 Magic Rings -> Magic Amulet	1			0					3	"rin,mag,qty=3"							"amu,mag"		75																																																																																					0
+3 Magic Amulets -> Magic Ring	1			0					3	"amu,mag,qty=3"							"rin,mag"		75																																																																																					0
+3 Gems + 1 Socketed Weapon ->  Socketed Magic Weapon	1			0					4	"weap,sock"	"gem4,qty=3"						"usetype,mag"	30		60	sock			1	2																																																																															0
+3 Gems + 1 Magic Weapon -> Socketed Magic Weapon	1			0					4	"weap,mag"	"gem4,qty=3"						"usetype,mag"	30		60	sock			1	2																																																																															0
+1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes	1			0					4	"shld,mag"	"gemz,qty=2"	spc					"usetype,mag,suf=162"	30		60																																																																																				0
+4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech	1			0					6	"swor,mag"	gemr	"hpot,qty=4"					"usetype,mag,suf=352"	30		60																																																																																				0
+1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm	1			0					4	kri	gemd	staf	belt				"pole,mag,pre=191"	50		60																																																																																				0
+1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion	1			0					2	gpl	hpot						yps																																																																																							0
+3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item	1			100					4	"any,mag"	"gem4,qty=3"						"usetype,mag"			100																																																																																				0
+6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item	1			0					7	"any,rar"	"skz,qty=6"						"usetype,rar"		40	40																																																																																				0
+1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item	1			0					3	"any,rar"	skz	The Stone of Jordan					"usetype,rar"		66	66																																																																																				0
+3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item	1			0					5	"any,rar,nos"	"skz,qty=3"	The Stone of Jordan					"useitem,sock=1"																																																																																							0
+1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1			100					4	"fhl,mag,upg"	jew	r06	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	ac-miss			25	50																																																																					0
+1 Magic Chain Boots + 1 Jewel + 1 Ral Rune + 1 Perfect Sapphire -> Hit Power Boots	1			100					4	"mbt,mag,upg"	jew	r08	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	ac-hth			25	60																																																																					0
+1 Magic Chain Gloves + 1 Jewel + 1 Ort Rune + 1 Perfect Sapphire -> Hit Power Gloves	1			100					4	"mgl,mag,upg"	jew	r09	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	knock			1	1																																																																					0
+1 Magic Heavy Belt + 1 Jewel + 1 Tal Rune + 1 Perfect Sapphire -> Hit Power Belt	1			100					4	"tbl,mag,upg"	jew	r07	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	dmg-to-mana			5	10																																																																					0
+1 Magic Gothic Shield + 1 Jewel + 1 Eth Rune + 1 Perfect Sapphire -> Hit Power Shield	1			100					4	"gts,mag,upg"	jew	r05	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	10	block			5	10																																																																					0
+1 Magic Field Plate + 1 Jewel + 1 Nef Rune + 1 Perfect Sapphire -> Hit Power Body	1			100					4	"fld,mag,upg"	jew	r04	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	10	balance1			10	20																																																																					0
+1 Magic Amulet + 1 Jewel + Thul Rune + 1 Perfect Sapphire -> Hit Power Amulet	1			100					4	"amul,mag"	jew	r10	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	10	howl			5	15																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Sapphire -> Hit Power Ring	1			100					4	"ring,mag"	jew	r11	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	6	dex			1	5																																																																					0
+1 Magic Blunt Weapon + 1 Jewel + 1 Tir Rune + 1 Perfect Sapphire -> Hit Power Weapon	1			100					4	"blun,mag"	jew	r03	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	dmg%			35	60																																																																					0
+1 Magic Helm + 1 Jewel + 1 Ral Rune + 1 Perfect Ruby -> Blood Helm	1			100					4	"hlm,mag,upg"	jew	r08	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	deadly			5	10																																																																					0
+1 Magic Light Plated Boots + 1 Jewel + 1 Eth Rune + 1 Perfect Ruby -> Blood Boots	1			100					4	"tbt,mag,upg"	jew	r05	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	regen			5	10																																																																					0
+1 Magic Heavy Gloves + 1 Jewel + 1 Nef Rune + 1 Perfect Ruby -> Blood Gloves	1			100					4	"vgl,mag,upg"	jew	r04	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	crush			5	10																																																																					0
+1 Magic Belt + 1 Jewel + 1 Tal Rune + 1 Perfect Ruby -> Blood Belt	1			100					4	"mbl,mag,upg"	jew	r07	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	openwounds			5	10																																																																					0
+1 Magic Spiked Shield + 1 Jewel + 1 Ith Rune + 1 Perfect Ruby -> Blood Shield	1			100					4	"spk,mag,upg"	jew	r06	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	thorns			4	7																																																																					0
+1 Magic Plate Mail + 1 Jewel + 1 Thul Rune + 1 Perfect Ruby -> Blood Body	1			100					4	"plt,mag,upg"	jew	r10	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	demon-heal			1	3																																																																					0
+1 Magic Amulet + 1 Jewel + 1 Amn Rune + 1 Perfect Ruby -> Blood Amulet	1			100					4	"amul,mag"	jew	r11	gpr				"usetype,crf"		50	50	lifesteal			1	4	hp			10	20	move1			5	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Sol Rune + 1 Perfect Ruby -> Blood Ring	1			100					4	"ring,mag"	jew	r12	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	str			1	5																																																																					0
+1 Magic Axe + 1 Jewel + Ort Rune + 1 Perfect Ruby -> Blood Weapon	1			100					4	"axe,mag"	jew	r09	gpr				"usetype,crf"		50	50	lifesteal			1	4	hp			10	20	dmg%			35	60																																																																					0
+1 Magic Mask + 1 Jewel + Nef Rune + 1 Perfect Amethyst -> Caster Helm	1			100					4	"msk,mag,upg"	jew	r04	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	manasteal			1	4																																																																					0
+1 Magic Boots + 1 Jewel + Thul Rune + 1 Perfect Amethyst -> Caster Boots	1			100					4	"lbt,mag,upg"	jew	r10	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana%			2	5																																																																					0
+1 Magic Leather Gloves + 1 Jewel + Ort Rune + 1 Perfect Amethyst -> Caster Gloves	1			100					4	"lgl,mag,upg"	jew	r09	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+1 Magic Light Belt + 1 Jewel + Ith Rune + 1 Perfect Amethyst -> Caster Belt	1			100					4	"vbl,mag,upg"	jew	r06	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+1 Magic Small Shield + 1 Jewel + 1 Eth Rune + 1 Perfect Amethyst -> Caster Shield	1			100					4	"sml,mag,upg"	jew	r05	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	block			5	10																																																																					0
+1 Magic Light Plate + 1 Jewel + 1 Tal Rune + 1 Perfect Amethyst -> Caster Body	1			100					4	"ltp,mag,upg"	jew	r07	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+1 Magic Amulet + 1 Jewel + 1 Ral Rune + 1 Perfect Amethyst -> Caster Amulet	1			100					4	"amul,mag"	jew	r08	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Amethyst -> Caster Ring	1			100					4	"ring,mag"	jew	r11	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	enr			1	5																																																																					0
+1 Magic Rod + 1 Jewel + 1 Tir Rune + 1 Perfect Amethyst -> Caster Weapon	1			100					4	"rod,mag"	jew	r03	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana%			1	5																																																																					0
+1 Magic Crown + 1 Jewel + 1 Ith Rune + 1 Perfect Emerald -> Safety Helm	1			100					4	"crn,mag,upg"	jew	r06	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-ltng			5	10	ac%			10	30																																																																0
+1 Magic Plated Boots + 1 Jewel + 1 Ort Rune + 1 Perfect Emerald -> Safety Boots	1			100					4	"hbt,mag,upg"	jew	r09	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-fire			5	10	ac%			10	30																																																																0
+1 Magic Gauntlets + 1 Jewel + 1 Ral Rune + 1 Perfect Emerald -> Safety Gloves	1			100					4	"hgl,mag,upg"	jew	r08	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-cold			5	10	ac%			10	30																																																																0
+1 Magic Sash + 1 Jewel + 1 Tal Rune + 1 Perfect Emerald -> Safety Belt	1			100					4	"lbl,mag,upg"	jew	r07	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-pois			5	10	ac%			10	30																																																																0
+1 Magic Kite Shield + 1 Jewel + 1 Nef Rune + 1 Perfect Emerald -> Safety Shield	1			100					4	"kit,mag,upg"	jew	r04	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-mag			5	10	ac%			10	30																																																																0
+1 Magic Breast Plate + 1 Jewel + 1 Eth Rune + 1 Perfect Emerald -> Safety Body	1			100					4	"brs,mag,upg"	jew	r05	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	half-freeze			1	1	ac%			10	30																																																																0
+1 Magic Amulet + 1 Jewel + 1 Thul Rune + 1 Perfect Emerald -> Safety Amulet	1			100					4	"amul,mag"	jew	r10	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	block			1	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Emerald -> Safety Ring	1			100					4	"ring,mag"	jew	r11	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	vit			1	5																																																																					0
+1 Magic Spear + 1 Jewel + 1 Sol Rune + 1 Perfect Emerald -> Safety Weapon	1			100					4	"spea,mag"	jew	r12	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	ac%			5	10																																																																					0
+1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor	1			100					4	"tors,nor,nos"	r07	r10	gpy				useitem				sock			1	6																																																																															0
+1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon	1			100					4	"weap,nor,nos"	r08	r11	gpv				useitem				sock			1	6																																																																															0
+1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm	1			100					4	"helm,nor,nos"	r08	r10	gpb				useitem				sock			1	6																																																																															0
+1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1			100					4	"shld,nor,nos"	r07	r11	gpr				useitem				sock			1	6																																																																															0
+1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon	1			100					3	"weap,low"	r02	gem4					"usetype,nor"																																																																																							0
+1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor	1			100					3	"armo,low"	r01	gem4					"usetype,nor"																																																																																							0
+1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon	1			100					4	"weap,bas,uni"	r08	r12	gpg				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor	1			100					4	"armo,bas,uni"	r07	r13	gpw				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon	1			100					4	"weap,exc,uni"	r17	r21	gpg				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor	1			100					4	"armo,exc,uni"	r18	r20	gpw				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon	1			100					4	"weap,bas,rar"	r09	r11	gpb				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor	1			100					4	"armo,bas,rar"	r08	r10	gpv				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon	1			100					4	"weap,exc,rar"	r19	r22	gpb				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor	1			100					4	"armo,exc,rar"	r18	r21	gpv				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ort Rune + 1 Weapon -> Fully Repaired Weapon	1			100					2	"weap,noe"	r09						"useitem,rep,qty=255"																																																																																							0
+1 Ral Rune + 1 Armor -> Fully Repaired Armor	1			100					2	"armo,noe"	r08						"useitem,rep,qty=255"																																																																																							0
+1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon	1			100					3	"weap,noe"	r09	gem4					"useitem,rep,rch,qty=255"																																																																																							0
+1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor	1			100					3	"armo,noe"	r08	gem4					"useitem,rep,rch,qty=255"																																																																																							0
+1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item (Destroy)	1			100					3	"any,sock"	r15	tsc					"useitem,uns"																																																																																							0
+20 Gems + 1 Socketed Item -> Clear Sockets on Item (Keep)	1			100					21	"any,sock"	"gem,qty=20"						"useitem,rem"																																																																																							0
+1 Ral Rune + 1 Jewel + 1 Superior Armor -> Tempered Armor				100					3	"armo,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
+1 Ral Rune + 1 Jewel + 1 Superior Weapon -> Tempered Weapon				100					3	"weap,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
+1 Ral Rune + 1 Jewel + Magic Ring -> Tempered Ring				100					3	"ring,mag"	jew	r08					"usetype,tmp"				levelreq			3	3																																																																															0
+1 Ral Rune + 1 Jewel + 1 Magic Amulet -> Tempered Amulet				100					3	"amu,mag"	jew	r08					"usetype,tmp"				levelreq			5	5																																																																															0
+1 El Rune + 1 Chipped Gem (Any) + 1 Tempered Weapon -> Weapon With Extra Attack Rating				100					3	"weap,tmp"	r01	gcv					useitem				levelreq			2	2	att			30	50																																																																										0
+3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon	1			0					4	"weap,mag"	"gem4,qty=3"						"usetype,mag"	25		50	sock			1	2																																																																															0
+1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
+1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
+1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution	1			100					4	tes	ceh	bet	fed				toa																																																																																							0
+1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon	1	1		100					4	"weap,bas,set"	r08	r12	gpg				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor	1	1		100					4	"armo,bas,set"	r07	r13	gpw				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon	1	1		100					4	"weap,exc,set"	r17	r21	gpg				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor	1	1		100					4	"armo,exc,set"	r18	r20	gpw				"useitem,mod,eli"				levelreq			7	7																																																																															0
+Add Rune - El	1			100					2	y01	r01						useitem				RB-Low			1	1																																																																															0
+Add Rune - Eld	1			100					2	y01	r02						useitem				RB-Low			2	2																																																																															0
+Add Rune - Tir	1			100					2	y01	r03						useitem				RB-Low			4	4																																																																															0
+Add Rune - Nef	1			100					2	y01	r04						useitem				RB-Low			8	8																																																																															0
+Add Rune - Eth	1			100					2	y01	r05						useitem				RB-Low			16	16																																																																															0
+Add Rune - Ith	1			100					2	y01	r06						useitem				RB-Low			32	32																																																																															0
+Add Rune - Tal	1			100					2	y01	r07						useitem				RB-Low			64	64																																																																															0
+Add Rune - Ral	1			100					2	y01	r08						useitem				RB-Low			128	128																																																																															0
+Add Rune - Ort	1			100					2	y01	r09						useitem				RB-Low			256	256																																																																															0
+Add Rune - Thul	1			100					2	y01	r10						useitem				RB-Low			512	512																																																																															0
+Add Rune - Amn	1			100					2	y01	r11						useitem				RB-Low			1024	1024																																																																															0
+Add Rune - Sol	1			100					2	y01	r12						useitem				RB-Mid			1	1																																																																															0
+Add Rune - Shael	1			100					2	y01	r13						useitem				RB-Mid			2	2																																																																															0
+Add Rune - Dol	1			100					2	y01	r14						useitem				RB-Mid			4	4																																																																															0
+Add Rune - Hel	1			100					2	y01	r15						useitem				RB-Mid			8	8																																																																															0
+Add Rune - Io	1			100					2	y01	r16						useitem				RB-Mid			16	16																																																																															0
+Add Rune - Lum	1			100					2	y01	r17						useitem				RB-Mid			32	32																																																																															0
+Add Rune - Ko	1			100					2	y01	r18						useitem				RB-Mid			64	64																																																																															0
+Add Rune - Fal	1			100					2	y01	r19						useitem				RB-Mid			128	128																																																																															0
+Add Rune - Lem	1			100					2	y01	r20						useitem				RB-Mid			256	256																																																																															0
+Add Rune - Pul	1			100					2	y01	r21						useitem				RB-Mid			512	512																																																																															0
+Add Rune - Um	1			100					2	y01	r22						useitem				RB-Mid			1024	1024																																																																															0
+Add Rune - Mal	1			100					2	y01	r23						useitem				RB-High			1	1																																																																															0
+Add Rune - Ist	1			100					2	y01	r24						useitem				RB-High			2	2																																																																															0
+Add Rune - Gul	1			100					2	y01	r25						useitem				RB-High			4	4																																																																															0
+Add Rune - Vex	1			100					2	y01	r26						useitem				RB-High			8	8																																																																															0
+Add Rune - Ohm	1			100					2	y01	r27						useitem				RB-High			16	16																																																																															0
+Add Rune - Lo	1			100					2	y01	r28						useitem				RB-High			32	32																																																																															0
+Add Rune - Sur	1			100					2	y01	r29						useitem				RB-High			64	64																																																																															0
+Add Rune - Ber	1			100					2	y01	r30						useitem				RB-High			128	128																																																																															0
+Add Rune - Jah	1			100					2	y01	r31						useitem				RB-High			256	256																																																																															0
+Add Rune - Cham	1			100					2	y01	r32						useitem				RB-High			512	512																																																																															0
+Add Rune - Zod	1			100					2	y01	r33						useitem				RB-High			1024	1024																																																																															0
+Add Rune - El x2	1			100					3	y01	"r01,qty=2"						useitem				RB-Low			2	2																																																																															0
+Add Rune - Eld x2	1			100					3	y01	"r02,qty=2"						useitem				RB-Low			4	4																																																																															0
+Add Rune - Tir x2	1			100					3	y01	"r03,qty=2"						useitem				RB-Low			8	8																																																																															0
+Add Rune - Nef x2	1			100					3	y01	"r04,qty=2"						useitem				RB-Low			16	16																																																																															0
+Add Rune - Eth x2	1			100					3	y01	"r05,qty=2"						useitem				RB-Low			32	32																																																																															0
+Add Rune - Ith x2	1			100					3	y01	"r06,qty=2"						useitem				RB-Low			64	64																																																																															0
+Add Rune - Tal x2	1			100					3	y01	"r07,qty=2"						useitem				RB-Low			128	128																																																																															0
+Add Rune - Ral x2	1			100					3	y01	"r08,qty=2"						useitem				RB-Low			256	256																																																																															0
+Add Rune - Ort x2	1			100					3	y01	"r09,qty=2"						useitem				RB-Low			512	512																																																																															0
+Add Rune - Thul x2	1			100					3	y01	"r10,qty=2"						useitem				RB-Low			1024	1024																																																																															0
+Add Rune - Amn x2	1			100					3	y01	"r11,qty=2"						useitem				RB-Low			2048	2048																																																																															0
+Add Rune - Sol x2	1			100					3	y01	"r12,qty=2"						useitem				RB-Mid			2	2																																																																															0
+Add Rune - Shael x2	1			100					3	y01	"r13,qty=2"						useitem				RB-Mid			4	4																																																																															0
+Add Rune - Dol x2	1			100					3	y01	"r14,qty=2"						useitem				RB-Mid			8	8																																																																															0
+Add Rune - Hel x2	1			100					3	y01	"r15,qty=2"						useitem				RB-Mid			16	16																																																																															0
+Add Rune - Io x2	1			100					3	y01	"r16,qty=2"						useitem				RB-Mid			32	32																																																																															0
+Add Rune - Lum x2	1			100					3	y01	"r17,qty=2"						useitem				RB-Mid			64	64																																																																															0
+Add Rune - Ko x2	1			100					3	y01	"r18,qty=2"						useitem				RB-Mid			128	128																																																																															0
+Add Rune - Fal x2	1			100					3	y01	"r19,qty=2"						useitem				RB-Mid			256	256																																																																															0
+Add Rune - Lem x2	1			100					3	y01	"r20,qty=2"						useitem				RB-Mid			512	512																																																																															0
+Add Rune - Pul x2	1			100					3	y01	"r21,qty=2"						useitem				RB-Mid			1024	1024																																																																															0
+Add Rune - Um x2	1			100					3	y01	"r22,qty=2"						useitem				RB-Mid			2048	2048																																																																															0
+Add Rune - Mal x2	1			100					3	y01	"r23,qty=2"						useitem				RB-High			2	2																																																																															0
+Add Rune - Ist x2	1			100					3	y01	"r24,qty=2"						useitem				RB-High			4	4																																																																															0
+Add Rune - Gul x2	1			100					3	y01	"r25,qty=2"						useitem				RB-High			8	8																																																																															0
+Add Rune - Vex x2	1			100					3	y01	"r26,qty=2"						useitem				RB-High			16	16																																																																															0
+Add Rune - Ohm x2	1			100					3	y01	"r27,qty=2"						useitem				RB-High			32	32																																																																															0
+Add Rune - Lo x2	1			100					3	y01	"r28,qty=2"						useitem				RB-High			64	64																																																																															0
+Add Rune - Sur x2	1			100					3	y01	"r29,qty=2"						useitem				RB-High			128	128																																																																															0
+Add Rune - Ber x2	1			100					3	y01	"r30,qty=2"						useitem				RB-High			256	256																																																																															0
+Add Rune - Jah x2	1			100					3	y01	"r31,qty=2"						useitem				RB-High			512	512																																																																															0
+Add Rune - Cham x2	1			100					3	y01	"r32,qty=2"						useitem				RB-High			1024	1024																																																																															0
+Add Rune - Zod x2	1			100					3	y01	"r33,qty=2"						useitem				RB-High			2048	2048																																																																															0
+Add Rune - El x3	1			100					4	y01	"r01,qty=3"						useitem				RB-Low			3	3																																																																															0
+Add Rune - Eld x3	1			100					4	y01	"r02,qty=3"						useitem				RB-Low			6	6																																																																															0
+Add Rune - Tir x3	1			100					4	y01	"r03,qty=3"						useitem				RB-Low			12	12																																																																															0
+Add Rune - Nef x3	1			100					4	y01	"r04,qty=3"						useitem				RB-Low			24	24																																																																															0
+Add Rune - Eth x3	1			100					4	y01	"r05,qty=3"						useitem				RB-Low			48	48																																																																															0
+Add Rune - Ith x3	1			100					4	y01	"r06,qty=3"						useitem				RB-Low			96	96																																																																															0
+Add Rune - Tal x3	1			100					4	y01	"r07,qty=3"						useitem				RB-Low			192	192																																																																															0
+Add Rune - Ral x3	1			100					4	y01	"r08,qty=3"						useitem				RB-Low			384	384																																																																															0
+Add Rune - Ort x3	1			100					4	y01	"r09,qty=3"						useitem				RB-Low			768	768																																																																															0
+Add Rune - Thul x3	1			100					4	y01	"r10,qty=3"						useitem				RB-Low			1536	1536																																																																															0
+Add Rune - Amn x3	1			100					4	y01	"r11,qty=3"						useitem				RB-Low			3072	3072																																																																															0
+Add Rune - Sol x3	1			100					4	y01	"r12,qty=3"						useitem				RB-Mid			3	3																																																																															0
+Add Rune - Shael x3	1			100					4	y01	"r13,qty=3"						useitem				RB-Mid			6	6																																																																															0
+Add Rune - Dol x3	1			100					4	y01	"r14,qty=3"						useitem				RB-Mid			12	12																																																																															0
+Add Rune - Hel x3	1			100					4	y01	"r15,qty=3"						useitem				RB-Mid			24	24																																																																															0
+Add Rune - Io x3	1			100					4	y01	"r16,qty=3"						useitem				RB-Mid			48	48																																																																															0
+Add Rune - Lum x3	1			100					4	y01	"r17,qty=3"						useitem				RB-Mid			96	96																																																																															0
+Add Rune - Ko x3	1			100					4	y01	"r18,qty=3"						useitem				RB-Mid			192	192																																																																															0
+Add Rune - Fal x3	1			100					4	y01	"r19,qty=3"						useitem				RB-Mid			384	384																																																																															0
+Add Rune - Lem x3	1			100					4	y01	"r20,qty=3"						useitem				RB-Mid			768	768																																																																															0
+Add Rune - Pul x3	1			100					4	y01	"r21,qty=3"						useitem				RB-Mid			1536	1536																																																																															0
+Add Rune - Um x3	1			100					4	y01	"r22,qty=3"						useitem				RB-Mid			3072	3072																																																																															0
+Add Rune - Mal x3	1			100					4	y01	"r23,qty=3"						useitem				RB-High			3	3																																																																															0
+Add Rune - Ist x3	1			100					4	y01	"r24,qty=3"						useitem				RB-High			6	6																																																																															0
+Add Rune - Gul x3	1			100					4	y01	"r25,qty=3"						useitem				RB-High			12	12																																																																															0
+Add Rune - Vex x3	1			100					4	y01	"r26,qty=3"						useitem				RB-High			24	24																																																																															0
+Add Rune - Ohm x3	1			100					4	y01	"r27,qty=3"						useitem				RB-High			48	48																																																																															0
+Add Rune - Lo x3	1			100					4	y01	"r28,qty=3"						useitem				RB-High			96	96																																																																															0
+Add Rune - Sur x3	1			100					4	y01	"r29,qty=3"						useitem				RB-High			192	192																																																																															0
+Add Rune - Ber x3	1			100					4	y01	"r30,qty=3"						useitem				RB-High			384	384																																																																															0
+Add Rune - Jah x3	1			100					4	y01	"r31,qty=3"						useitem				RB-High			768	768																																																																															0
+Add Rune - Cham x3	1			100					4	y01	"r32,qty=3"						useitem				RB-High			1536	1536																																																																															0
+Add Rune - Zod x3	1			100					4	y01	"r33,qty=3"						useitem				RB-High			3072	3072																																																																															0
+Add Rune - El x4	1			100					5	y01	"r01,qty=4"						useitem				RB-Low			4	4																																																																															0
+Add Rune - Eld x4	1			100					5	y01	"r02,qty=4"						useitem				RB-Low			8	8																																																																															0
+Add Rune - Tir x4	1			100					5	y01	"r03,qty=4"						useitem				RB-Low			16	16																																																																															0
+Add Rune - Nef x4	1			100					5	y01	"r04,qty=4"						useitem				RB-Low			32	32																																																																															0
+Add Rune - Eth x4	1			100					5	y01	"r05,qty=4"						useitem				RB-Low			64	64																																																																															0
+Add Rune - Ith x4	1			100					5	y01	"r06,qty=4"						useitem				RB-Low			128	128																																																																															0
+Add Rune - Tal x4	1			100					5	y01	"r07,qty=4"						useitem				RB-Low			256	256																																																																															0
+Add Rune - Ral x4	1			100					5	y01	"r08,qty=4"						useitem				RB-Low			512	512																																																																															0
+Add Rune - Ort x4	1			100					5	y01	"r09,qty=4"						useitem				RB-Low			1024	1024																																																																															0
+Add Rune - Thul x4	1			100					5	y01	"r10,qty=4"						useitem				RB-Low			2048	2048																																																																															0
+Add Rune - Amn x4	1			100					5	y01	"r11,qty=4"						useitem				RB-Low			4096	4096																																																																															0
+Add Rune - Sol x4	1			100					5	y01	"r12,qty=4"						useitem				RB-Mid			4	4																																																																															0
+Add Rune - Shael x4	1			100					5	y01	"r13,qty=4"						useitem				RB-Mid			8	8																																																																															0
+Add Rune - Dol x4	1			100					5	y01	"r14,qty=4"						useitem				RB-Mid			16	16																																																																															0
+Add Rune - Hel x4	1			100					5	y01	"r15,qty=4"						useitem				RB-Mid			32	32																																																																															0
+Add Rune - Io x4	1			100					5	y01	"r16,qty=4"						useitem				RB-Mid			64	64																																																																															0
+Add Rune - Lum x4	1			100					5	y01	"r17,qty=4"						useitem				RB-Mid			128	128																																																																															0
+Add Rune - Ko x4	1			100					5	y01	"r18,qty=4"						useitem				RB-Mid			256	256																																																																															0
+Add Rune - Fal x4	1			100					5	y01	"r19,qty=4"						useitem				RB-Mid			512	512																																																																															0
+Add Rune - Lem x4	1			100					5	y01	"r20,qty=4"						useitem				RB-Mid			1024	1024																																																																															0
+Add Rune - Pul x4	1			100					5	y01	"r21,qty=4"						useitem				RB-Mid			2048	2048																																																																															0
+Add Rune - Um x4	1			100					5	y01	"r22,qty=4"						useitem				RB-Mid			4096	4096																																																																															0
+Add Rune - Mal x4	1			100					5	y01	"r23,qty=4"						useitem				RB-High			4	4																																																																															0
+Add Rune - Ist x4	1			100					5	y01	"r24,qty=4"						useitem				RB-High			8	8																																																																															0
+Add Rune - Gul x4	1			100					5	y01	"r25,qty=4"						useitem				RB-High			16	16																																																																															0
+Add Rune - Vex x4	1			100					5	y01	"r26,qty=4"						useitem				RB-High			32	32																																																																															0
+Add Rune - Ohm x4	1			100					5	y01	"r27,qty=4"						useitem				RB-High			64	64																																																																															0
+Add Rune - Lo x4	1			100					5	y01	"r28,qty=4"						useitem				RB-High			128	128																																																																															0
+Add Rune - Sur x4	1			100					5	y01	"r29,qty=4"						useitem				RB-High			256	256																																																																															0
+Add Rune - Ber x4	1			100					5	y01	"r30,qty=4"						useitem				RB-High			512	512																																																																															0
+Add Rune - Jah x4	1			100					5	y01	"r31,qty=4"						useitem				RB-High			1024	1024																																																																															0
+Add Rune - Cham x4	1			100					5	y01	"r32,qty=4"						useitem				RB-High			2048	2048																																																																															0
+Add Rune - Zod x4	1			100					5	y01	"r33,qty=4"						useitem				RB-High			4096	4096																																																																															0
+Add Rune - El x5	1			100					6	y01	"r01,qty=5"						useitem				RB-Low			5	5																																																																															0
+Add Rune - Eld x5	1			100					6	y01	"r02,qty=5"						useitem				RB-Low			10	10																																																																															0
+Add Rune - Tir x5	1			100					6	y01	"r03,qty=5"						useitem				RB-Low			20	20																																																																															0
+Add Rune - Nef x5	1			100					6	y01	"r04,qty=5"						useitem				RB-Low			40	40																																																																															0
+Add Rune - Eth x5	1			100					6	y01	"r05,qty=5"						useitem				RB-Low			80	80																																																																															0
+Add Rune - Ith x5	1			100					6	y01	"r06,qty=5"						useitem				RB-Low			160	160																																																																															0
+Add Rune - Tal x5	1			100					6	y01	"r07,qty=5"						useitem				RB-Low			320	320																																																																															0
+Add Rune - Ral x5	1			100					6	y01	"r08,qty=5"						useitem				RB-Low			640	640																																																																															0
+Add Rune - Ort x5	1			100					6	y01	"r09,qty=5"						useitem				RB-Low			1280	1280																																																																															0
+Add Rune - Thul x5	1			100					6	y01	"r10,qty=5"						useitem				RB-Low			2560	2560																																																																															0
+Add Rune - Amn x5	1			100					6	y01	"r11,qty=5"						useitem				RB-Low			5120	5120																																																																															0
+Add Rune - Sol x5	1			100					6	y01	"r12,qty=5"						useitem				RB-Mid			5	5																																																																															0
+Add Rune - Shael x5	1			100					6	y01	"r13,qty=5"						useitem				RB-Mid			10	10																																																																															0
+Add Rune - Dol x5	1			100					6	y01	"r14,qty=5"						useitem				RB-Mid			20	20																																																																															0
+Add Rune - Hel x5	1			100					6	y01	"r15,qty=5"						useitem				RB-Mid			40	40																																																																															0
+Add Rune - Io x5	1			100					6	y01	"r16,qty=5"						useitem				RB-Mid			80	80																																																																															0
+Add Rune - Lum x5	1			100					6	y01	"r17,qty=5"						useitem				RB-Mid			160	160																																																																															0
+Add Rune - Ko x5	1			100					6	y01	"r18,qty=5"						useitem				RB-Mid			320	320																																																																															0
+Add Rune - Fal x5	1			100					6	y01	"r19,qty=5"						useitem				RB-Mid			640	640																																																																															0
+Add Rune - Lem x5	1			100					6	y01	"r20,qty=5"						useitem				RB-Mid			1280	1280																																																																															0
+Add Rune - Pul x5	1			100					6	y01	"r21,qty=5"						useitem				RB-Mid			2560	2560																																																																															0
+Add Rune - Um x5	1			100					6	y01	"r22,qty=5"						useitem				RB-Mid			5120	5120																																																																															0
+Add Rune - Mal x5	1			100					6	y01	"r23,qty=5"						useitem				RB-High			5	5																																																																															0
+Add Rune - Ist x5	1			100					6	y01	"r24,qty=5"						useitem				RB-High			10	10																																																																															0
+Add Rune - Gul x5	1			100					6	y01	"r25,qty=5"						useitem				RB-High			20	20																																																																															0
+Add Rune - Vex x5	1			100					6	y01	"r26,qty=5"						useitem				RB-High			40	40																																																																															0
+Add Rune - Ohm x5	1			100					6	y01	"r27,qty=5"						useitem				RB-High			80	80																																																																															0
+Add Rune - Lo x5	1			100					6	y01	"r28,qty=5"						useitem				RB-High			160	160																																																																															0
+Add Rune - Sur x5	1			100					6	y01	"r29,qty=5"						useitem				RB-High			320	320																																																																															0
+Add Rune - Ber x5	1			100					6	y01	"r30,qty=5"						useitem				RB-High			640	640																																																																															0
+Add Rune - Jah x5	1			100					6	y01	"r31,qty=5"						useitem				RB-High			1280	1280																																																																															0
+Add Rune - Cham x5	1			100					6	y01	"r32,qty=5"						useitem				RB-High			2560	2560																																																																															0
+Add Rune - Zod x5	1			100					6	y01	"r33,qty=5"						useitem				RB-High			5120	5120																																																																															0
+Add Rune - El x6	1			100					7	y01	"r01,qty=6"						useitem				RB-Low			6	6																																																																															0
+Add Rune - Eld x6	1			100					7	y01	"r02,qty=6"						useitem				RB-Low			12	12																																																																															0
+Add Rune - Tir x6	1			100					7	y01	"r03,qty=6"						useitem				RB-Low			24	24																																																																															0
+Add Rune - Nef x6	1			100					7	y01	"r04,qty=6"						useitem				RB-Low			48	48																																																																															0
+Add Rune - Eth x6	1			100					7	y01	"r05,qty=6"						useitem				RB-Low			96	96																																																																															0
+Add Rune - Ith x6	1			100					7	y01	"r06,qty=6"						useitem				RB-Low			192	192																																																																															0
+Add Rune - Tal x6	1			100					7	y01	"r07,qty=6"						useitem				RB-Low			384	384																																																																															0
+Add Rune - Ral x6	1			100					7	y01	"r08,qty=6"						useitem				RB-Low			768	768																																																																															0
+Add Rune - Ort x6	1			100					7	y01	"r09,qty=6"						useitem				RB-Low			1536	1536																																																																															0
+Add Rune - Thul x6	1			100					7	y01	"r10,qty=6"						useitem				RB-Low			3072	3072																																																																															0
+Add Rune - Amn x6	1			100					7	y01	"r11,qty=6"						useitem				RB-Low			6144	6144																																																																															0
+Add Rune - Sol x6	1			100					7	y01	"r12,qty=6"						useitem				RB-Mid			6	6																																																																															0
+Add Rune - Shael x6	1			100					7	y01	"r13,qty=6"						useitem				RB-Mid			12	12																																																																															0
+Add Rune - Dol x6	1			100					7	y01	"r14,qty=6"						useitem				RB-Mid			24	24																																																																															0
+Add Rune - Hel x6	1			100					7	y01	"r15,qty=6"						useitem				RB-Mid			48	48																																																																															0
+Add Rune - Io x6	1			100					7	y01	"r16,qty=6"						useitem				RB-Mid			96	96																																																																															0
+Add Rune - Lum x6	1			100					7	y01	"r17,qty=6"						useitem				RB-Mid			192	192																																																																															0
+Add Rune - Ko x6	1			100					7	y01	"r18,qty=6"						useitem				RB-Mid			384	384																																																																															0
+Add Rune - Fal x6	1			100					7	y01	"r19,qty=6"						useitem				RB-Mid			768	768																																																																															0
+Add Rune - Lem x6	1			100					7	y01	"r20,qty=6"						useitem				RB-Mid			1536	1536																																																																															0
+Add Rune - Pul x6	1			100					7	y01	"r21,qty=6"						useitem				RB-Mid			3072	3072																																																																															0
+Add Rune - Um x6	1			100					7	y01	"r22,qty=6"						useitem				RB-Mid			6144	6144																																																																															0
+Add Rune - Mal x6	1			100					7	y01	"r23,qty=6"						useitem				RB-High			6	6																																																																															0
+Add Rune - Ist x6	1			100					7	y01	"r24,qty=6"						useitem				RB-High			12	12																																																																															0
+Add Rune - Gul x6	1			100					7	y01	"r25,qty=6"						useitem				RB-High			24	24																																																																															0
+Add Rune - Vex x6	1			100					7	y01	"r26,qty=6"						useitem				RB-High			48	48																																																																															0
+Add Rune - Ohm x6	1			100					7	y01	"r27,qty=6"						useitem				RB-High			96	96																																																																															0
+Add Rune - Lo x6	1			100					7	y01	"r28,qty=6"						useitem				RB-High			192	192																																																																															0
+Add Rune - Sur x6	1			100					7	y01	"r29,qty=6"						useitem				RB-High			384	384																																																																															0
+Add Rune - Ber x6	1			100					7	y01	"r30,qty=6"						useitem				RB-High			768	768																																																																															0
+Add Rune - Jah x6	1			100					7	y01	"r31,qty=6"						useitem				RB-High			1536	1536																																																																															0
+Add Rune - Cham x6	1			100					7	y01	"r32,qty=6"						useitem				RB-High			3072	3072																																																																															0
+Add Rune - Zod x6	1			100					7	y01	"r33,qty=6"						useitem				RB-High			6144	6144																																																																															0
+Add Rune - El x7	1			100					8	y01	"r01,qty=7"						useitem				RB-Low			7	7																																																																															0
+Add Rune - Eld x7	1			100					8	y01	"r02,qty=7"						useitem				RB-Low			14	14																																																																															0
+Add Rune - Tir x7	1			100					8	y01	"r03,qty=7"						useitem				RB-Low			28	28																																																																															0
+Add Rune - Nef x7	1			100					8	y01	"r04,qty=7"						useitem				RB-Low			56	56																																																																															0
+Add Rune - Eth x7	1			100					8	y01	"r05,qty=7"						useitem				RB-Low			112	112																																																																															0
+Add Rune - Ith x7	1			100					8	y01	"r06,qty=7"						useitem				RB-Low			224	224																																																																															0
+Add Rune - Tal x7	1			100					8	y01	"r07,qty=7"						useitem				RB-Low			448	448																																																																															0
+Add Rune - Ral x7	1			100					8	y01	"r08,qty=7"						useitem				RB-Low			896	896																																																																															0
+Add Rune - Ort x7	1			100					8	y01	"r09,qty=7"						useitem				RB-Low			1792	1792																																																																															0
+Add Rune - Thul x7	1			100					8	y01	"r10,qty=7"						useitem				RB-Low			3584	3584																																																																															0
+Add Rune - Amn x7	1			100					8	y01	"r11,qty=7"						useitem				RB-Low			7168	7168																																																																															0
+Add Rune - Sol x7	1			100					8	y01	"r12,qty=7"						useitem				RB-Mid			7	7																																																																															0
+Add Rune - Shael x7	1			100					8	y01	"r13,qty=7"						useitem				RB-Mid			14	14																																																																															0
+Add Rune - Dol x7	1			100					8	y01	"r14,qty=7"						useitem				RB-Mid			28	28																																																																															0
+Add Rune - Hel x7	1			100					8	y01	"r15,qty=7"						useitem				RB-Mid			56	56																																																																															0
+Add Rune - Io x7	1			100					8	y01	"r16,qty=7"						useitem				RB-Mid			112	112																																																																															0
+Add Rune - Lum x7	1			100					8	y01	"r17,qty=7"						useitem				RB-Mid			224	224																																																																															0
+Add Rune - Ko x7	1			100					8	y01	"r18,qty=7"						useitem				RB-Mid			448	448																																																																															0
+Add Rune - Fal x7	1			100					8	y01	"r19,qty=7"						useitem				RB-Mid			896	896																																																																															0
+Add Rune - Lem x7	1			100					8	y01	"r20,qty=7"						useitem				RB-Mid			1792	1792																																																																															0
+Add Rune - Pul x7	1			100					8	y01	"r21,qty=7"						useitem				RB-Mid			3584	3584																																																																															0
+Add Rune - Um x7	1			100					8	y01	"r22,qty=7"						useitem				RB-Mid			7168	7168																																																																															0
+Add Rune - Mal x7	1			100					8	y01	"r23,qty=7"						useitem				RB-High			7	7																																																																															0
+Add Rune - Ist x7	1			100					8	y01	"r24,qty=7"						useitem				RB-High			14	14																																																																															0
+Add Rune - Gul x7	1			100					8	y01	"r25,qty=7"						useitem				RB-High			28	28																																																																															0
+Add Rune - Vex x7	1			100					8	y01	"r26,qty=7"						useitem				RB-High			56	56																																																																															0
+Add Rune - Ohm x7	1			100					8	y01	"r27,qty=7"						useitem				RB-High			112	112																																																																															0
+Add Rune - Lo x7	1			100					8	y01	"r28,qty=7"						useitem				RB-High			224	224																																																																															0
+Add Rune - Sur x7	1			100					8	y01	"r29,qty=7"						useitem				RB-High			448	448																																																																															0
+Add Rune - Ber x7	1			100					8	y01	"r30,qty=7"						useitem				RB-High			896	896																																																																															0
+Add Rune - Jah x7	1			100					8	y01	"r31,qty=7"						useitem				RB-High			1792	1792																																																																															0
+Add Rune - Cham x7	1			100					8	y01	"r32,qty=7"						useitem				RB-High			3584	3584																																																																															0
+Add Rune - Zod x7	1			100					8	y01	"r33,qty=7"						useitem				RB-High			7168	7168																																																																															0
+Add Rune - El x8	1			100					9	y01	"r01,qty=8"						useitem				RB-Low			8	8																																																																															0
+Add Rune - Eld x8	1			100					9	y01	"r02,qty=8"						useitem				RB-Low			16	16																																																																															0
+Add Rune - Tir x8	1			100					9	y01	"r03,qty=8"						useitem				RB-Low			32	32																																																																															0
+Add Rune - Nef x8	1			100					9	y01	"r04,qty=8"						useitem				RB-Low			64	64																																																																															0
+Add Rune - Eth x8	1			100					9	y01	"r05,qty=8"						useitem				RB-Low			128	128																																																																															0
+Add Rune - Ith x8	1			100					9	y01	"r06,qty=8"						useitem				RB-Low			256	256																																																																															0
+Add Rune - Tal x8	1			100					9	y01	"r07,qty=8"						useitem				RB-Low			512	512																																																																															0
+Add Rune - Ral x8	1			100					9	y01	"r08,qty=8"						useitem				RB-Low			1024	1024																																																																															0
+Add Rune - Ort x8	1			100					9	y01	"r09,qty=8"						useitem				RB-Low			2048	2048																																																																															0
+Add Rune - Thul x8	1			100					9	y01	"r10,qty=8"						useitem				RB-Low			4096	4096																																																																															0
+Add Rune - Amn x8	1			100					9	y01	"r11,qty=8"						useitem				RB-Low			8192	8192																																																																															0
+Add Rune - Sol x8	1			100					9	y01	"r12,qty=8"						useitem				RB-Mid			8	8																																																																															0
+Add Rune - Shael x8	1			100					9	y01	"r13,qty=8"						useitem				RB-Mid			16	16																																																																															0
+Add Rune - Dol x8	1			100					9	y01	"r14,qty=8"						useitem				RB-Mid			32	32																																																																															0
+Add Rune - Hel x8	1			100					9	y01	"r15,qty=8"						useitem				RB-Mid			64	64																																																																															0
+Add Rune - Io x8	1			100					9	y01	"r16,qty=8"						useitem				RB-Mid			128	128																																																																															0
+Add Rune - Lum x8	1			100					9	y01	"r17,qty=8"						useitem				RB-Mid			256	256																																																																															0
+Add Rune - Ko x8	1			100					9	y01	"r18,qty=8"						useitem				RB-Mid			512	512																																																																															0
+Add Rune - Fal x8	1			100					9	y01	"r19,qty=8"						useitem				RB-Mid			1024	1024																																																																															0
+Add Rune - Lem x8	1			100					9	y01	"r20,qty=8"						useitem				RB-Mid			2048	2048																																																																															0
+Add Rune - Pul x8	1			100					9	y01	"r21,qty=8"						useitem				RB-Mid			4096	4096																																																																															0
+Add Rune - Um x8	1			100					9	y01	"r22,qty=8"						useitem				RB-Mid			8192	8192																																																																															0
+Add Rune - Mal x8	1			100					9	y01	"r23,qty=8"						useitem				RB-High			8	8																																																																															0
+Add Rune - Ist x8	1			100					9	y01	"r24,qty=8"						useitem				RB-High			16	16																																																																															0
+Add Rune - Gul x8	1			100					9	y01	"r25,qty=8"						useitem				RB-High			32	32																																																																															0
+Add Rune - Vex x8	1			100					9	y01	"r26,qty=8"						useitem				RB-High			64	64																																																																															0
+Add Rune - Ohm x8	1			100					9	y01	"r27,qty=8"						useitem				RB-High			128	128																																																																															0
+Add Rune - Lo x8	1			100					9	y01	"r28,qty=8"						useitem				RB-High			256	256																																																																															0
+Add Rune - Sur x8	1			100					9	y01	"r29,qty=8"						useitem				RB-High			512	512																																																																															0
+Add Rune - Ber x8	1			100					9	y01	"r30,qty=8"						useitem				RB-High			1024	1024																																																																															0
+Add Rune - Jah x8	1			100					9	y01	"r31,qty=8"						useitem				RB-High			2048	2048																																																																															0
+Add Rune - Cham x8	1			100					9	y01	"r32,qty=8"						useitem				RB-High			4096	4096																																																																															0
+Add Rune - Zod x8	1			100					9	y01	"r33,qty=8"						useitem				RB-High			8192	8192																																																																															0
+Add Rune - El x9	1			100					10	y01	"r01,qty=9"						useitem				RB-Low			9	9																																																																															0
+Add Rune - Eld x9	1			100					10	y01	"r02,qty=9"						useitem				RB-Low			18	18																																																																															0
+Add Rune - Tir x9	1			100					10	y01	"r03,qty=9"						useitem				RB-Low			36	36																																																																															0
+Add Rune - Nef x9	1			100					10	y01	"r04,qty=9"						useitem				RB-Low			72	72																																																																															0
+Add Rune - Eth x9	1			100					10	y01	"r05,qty=9"						useitem				RB-Low			144	144																																																																															0
+Add Rune - Ith x9	1			100					10	y01	"r06,qty=9"						useitem				RB-Low			288	288																																																																															0
+Add Rune - Tal x9	1			100					10	y01	"r07,qty=9"						useitem				RB-Low			576	576																																																																															0
+Add Rune - Ral x9	1			100					10	y01	"r08,qty=9"						useitem				RB-Low			1152	1152																																																																															0
+Add Rune - Ort x9	1			100					10	y01	"r09,qty=9"						useitem				RB-Low			2304	2304																																																																															0
+Add Rune - Thul x9	1			100					10	y01	"r10,qty=9"						useitem				RB-Low			4608	4608																																																																															0
+Add Rune - Amn x9	1			100					10	y01	"r11,qty=9"						useitem				RB-Low			9216	9216																																																																															0
+Add Rune - Sol x9	1			100					10	y01	"r12,qty=9"						useitem				RB-Mid			9	9																																																																															0
+Add Rune - Shael x9	1			100					10	y01	"r13,qty=9"						useitem				RB-Mid			18	18																																																																															0
+Add Rune - Dol x9	1			100					10	y01	"r14,qty=9"						useitem				RB-Mid			36	36																																																																															0
+Add Rune - Hel x9	1			100					10	y01	"r15,qty=9"						useitem				RB-Mid			72	72																																																																															0
+Add Rune - Io x9	1			100					10	y01	"r16,qty=9"						useitem				RB-Mid			144	144																																																																															0
+Add Rune - Lum x9	1			100					10	y01	"r17,qty=9"						useitem				RB-Mid			288	288																																																																															0
+Add Rune - Ko x9	1			100					10	y01	"r18,qty=9"						useitem				RB-Mid			576	576																																																																															0
+Add Rune - Fal x9	1			100					10	y01	"r19,qty=9"						useitem				RB-Mid			1152	1152																																																																															0
+Add Rune - Lem x9	1			100					10	y01	"r20,qty=9"						useitem				RB-Mid			2304	2304																																																																															0
+Add Rune - Pul x9	1			100					10	y01	"r21,qty=9"						useitem				RB-Mid			4608	4608																																																																															0
+Add Rune - Um x9	1			100					10	y01	"r22,qty=9"						useitem				RB-Mid			9216	9216																																																																															0
+Add Rune - Mal x9	1			100					10	y01	"r23,qty=9"						useitem				RB-High			9	9																																																																															0
+Add Rune - Ist x9	1			100					10	y01	"r24,qty=9"						useitem				RB-High			18	18																																																																															0
+Add Rune - Gul x9	1			100					10	y01	"r25,qty=9"						useitem				RB-High			36	36																																																																															0
+Add Rune - Vex x9	1			100					10	y01	"r26,qty=9"						useitem				RB-High			72	72																																																																															0
+Add Rune - Ohm x9	1			100					10	y01	"r27,qty=9"						useitem				RB-High			144	144																																																																															0
+Add Rune - Lo x9	1			100					10	y01	"r28,qty=9"						useitem				RB-High			288	288																																																																															0
+Add Rune - Sur x9	1			100					10	y01	"r29,qty=9"						useitem				RB-High			576	576																																																																															0
+Add Rune - Ber x9	1			100					10	y01	"r30,qty=9"						useitem				RB-High			1152	1152																																																																															0
+Add Rune - Jah x9	1			100					10	y01	"r31,qty=9"						useitem				RB-High			2304	2304																																																																															0
+Add Rune - Cham x9	1			100					10	y01	"r32,qty=9"						useitem				RB-High			4608	4608																																																																															0
+Add Rune - Zod x9	1			100					10	y01	"r33,qty=9"						useitem				RB-High			9216	9216																																																																															0
+Add Rune - El x10	1			100					11	y01	"r01,qty=10"						useitem				RB-Low			10	10																																																																															0
+Add Rune - Eld x10	1			100					11	y01	"r02,qty=10"						useitem				RB-Low			20	20																																																																															0
+Add Rune - Tir x10	1			100					11	y01	"r03,qty=10"						useitem				RB-Low			40	40																																																																															0
+Add Rune - Nef x10	1			100					11	y01	"r04,qty=10"						useitem				RB-Low			80	80																																																																															0
+Add Rune - Eth x10	1			100					11	y01	"r05,qty=10"						useitem				RB-Low			160	160																																																																															0
+Add Rune - Ith x10	1			100					11	y01	"r06,qty=10"						useitem				RB-Low			320	320																																																																															0
+Add Rune - Tal x10	1			100					11	y01	"r07,qty=10"						useitem				RB-Low			640	640																																																																															0
+Add Rune - Ral x10	1			100					11	y01	"r08,qty=10"						useitem				RB-Low			1280	1280																																																																															0
+Add Rune - Ort x10	1			100					11	y01	"r09,qty=10"						useitem				RB-Low			2560	2560																																																																															0
+Add Rune - Thul x10	1			100					11	y01	"r10,qty=10"						useitem				RB-Low			5120	5120																																																																															0
+Add Rune - Amn x10	1			100					11	y01	"r11,qty=10"						useitem				RB-Low			10240	10240																																																																															0
+Add Rune - Sol x10	1			100					11	y01	"r12,qty=10"						useitem				RB-Mid			10	10																																																																															0
+Add Rune - Shael x10	1			100					11	y01	"r13,qty=10"						useitem				RB-Mid			20	20																																																																															0
+Add Rune - Dol x10	1			100					11	y01	"r14,qty=10"						useitem				RB-Mid			40	40																																																																															0
+Add Rune - Hel x10	1			100					11	y01	"r15,qty=10"						useitem				RB-Mid			80	80																																																																															0
+Add Rune - Io x10	1			100					11	y01	"r16,qty=10"						useitem				RB-Mid			160	160																																																																															0
+Add Rune - Lum x10	1			100					11	y01	"r17,qty=10"						useitem				RB-Mid			320	320																																																																															0
+Add Rune - Ko x10	1			100					11	y01	"r18,qty=10"						useitem				RB-Mid			640	640																																																																															0
+Add Rune - Fal x10	1			100					11	y01	"r19,qty=10"						useitem				RB-Mid			1280	1280																																																																															0
+Add Rune - Lem x10	1			100					11	y01	"r20,qty=10"						useitem				RB-Mid			2560	2560																																																																															0
+Add Rune - Pul x10	1			100					11	y01	"r21,qty=10"						useitem				RB-Mid			5120	5120																																																																															0
+Add Rune - Um x10	1			100					11	y01	"r22,qty=10"						useitem				RB-Mid			10240	10240																																																																															0
+Add Rune - Mal x10	1			100					11	y01	"r23,qty=10"						useitem				RB-High			10	10																																																																															0
+Add Rune - Ist x10	1			100					11	y01	"r24,qty=10"						useitem				RB-High			20	20																																																																															0
+Add Rune - Gul x10	1			100					11	y01	"r25,qty=10"						useitem				RB-High			40	40																																																																															0
+Add Rune - Vex x10	1			100					11	y01	"r26,qty=10"						useitem				RB-High			80	80																																																																															0
+Add Rune - Ohm x10	1			100					11	y01	"r27,qty=10"						useitem				RB-High			160	160																																																																															0
+Add Rune - Lo x10	1			100					11	y01	"r28,qty=10"						useitem				RB-High			320	320																																																																															0
+Add Rune - Sur x10	1			100					11	y01	"r29,qty=10"						useitem				RB-High			640	640																																																																															0
+Add Rune - Ber x10	1			100					11	y01	"r30,qty=10"						useitem				RB-High			1280	1280																																																																															0
+Add Rune - Jah x10	1			100					11	y01	"r31,qty=10"						useitem				RB-High			2560	2560																																																																															0
+Add Rune - Cham x10	1			100					11	y01	"r32,qty=10"						useitem				RB-High			5120	5120																																																																															0
+Add Rune - Zod x10	1			100					11	y01	"r33,qty=10"						useitem				RB-High			10240	10240																																																																															0
+Remove Rune - El	1			100	15	362	1		2	y01	y09						useitem				RB-Low			-1	-1																					y09																													r01																													0
+Remove Rune - Eld	1			100	15	362	2		2	y01	y10						useitem				RB-Low			-2	-2																					y10																													r02																													0
+Remove Rune - Tir	1			100	15	362	4		2	y01	y11						useitem				RB-Low			-4	-4																					y11																													r03																													0
+Remove Rune - Nef	1			100	15	362	8		2	y01	y12						useitem				RB-Low			-8	-8																					y12																													r04																													0
+Remove Rune - Eth	1			100	15	362	16		2	y01	y13						useitem				RB-Low			-16	-16																					y13																													r05																													0
+Remove Rune - Ith	1			100	15	362	32		2	y01	y14						useitem				RB-Low			-32	-32																					y14																													r06																													0
+Remove Rune - Tal	1			100	15	362	64		2	y01	y15						useitem				RB-Low			-64	-64																					y15																													r07																													0
+Remove Rune - Ral	1			100	15	362	128		2	y01	y16						useitem				RB-Low			-128	-128																					y16																													r08																													0
+Remove Rune - Ort	1			100	15	362	256		2	y01	y17						useitem				RB-Low			-256	-256																					y17																													r09																													0
+Remove Rune - Thul	1			100	15	362	512		2	y01	y18						useitem				RB-Low			-512	-512																					y18																													r10																													0
+Remove Rune - Amn	1			100	15	362	1024		2	y01	y19						useitem				RB-Low			-1024	-1024																					y19																													r11																													0
+Remove Rune - Sol	1			100	15	363	1		2	y01	y20						useitem				RB-Mid			-1	-1																					y20																													r12																													0
+Remove Rune - Shael	1			100	15	363	2		2	y01	y21						useitem				RB-Mid			-2	-2																					y21																													r13																													0
+Remove Rune - Dol	1			100	15	363	4		2	y01	y22						useitem				RB-Mid			-4	-4																					y22																													r14																													0
+Remove Rune - Hel	1			100	15	363	8		2	y01	y23						useitem				RB-Mid			-8	-8																					y23																													r15																													0
+Remove Rune - Io	1			100	15	363	16		2	y01	y24						useitem				RB-Mid			-16	-16																					y24																													r16																													0
+Remove Rune - Lum	1			100	15	363	32		2	y01	y25						useitem				RB-Mid			-32	-32																					y25																													r17																													0
+Remove Rune - Ko	1			100	15	363	64		2	y01	y26						useitem				RB-Mid			-64	-64																					y26																													r18																													0
+Remove Rune - Fal	1			100	15	363	128		2	y01	y27						useitem				RB-Mid			-128	-128																					y27																													r19																													0
+Remove Rune - Lem	1			100	15	363	256		2	y01	y28						useitem				RB-Mid			-256	-256																					y28																													r20																													0
+Remove Rune - Pul	1			100	15	363	512		2	y01	y29						useitem				RB-Mid			-512	-512																					y29																													r21																													0
+Remove Rune - Um	1			100	15	363	1024		2	y01	y30						useitem				RB-Mid			-1024	-1024																					y30																													r22																													0
+Remove Rune - Mal	1			100	15	364	1		2	y01	y31						useitem				RB-High			-1	-1																					y31																													r23																													0
+Remove Rune - Ist	1			100	15	364	2		2	y01	y32						useitem				RB-High			-2	-2																					y32																													r24																													0
+Remove Rune - Gul	1			100	15	364	4		2	y01	y33						useitem				RB-High			-4	-4																					y33																													r25																													0
+Remove Rune - Vex	1			100	15	364	8		2	y01	y34						useitem				RB-High			-8	-8																					y34																													r26																													0
+Remove Rune - Ohm	1			100	15	364	16		2	y01	y35						useitem				RB-High			-16	-16																					y35																													r27																													0
+Remove Rune - Lo	1			100	15	364	32		2	y01	y36						useitem				RB-High			-32	-32																					y36																													r28																													0
+Remove Rune - Sur	1			100	15	364	64		2	y01	y37						useitem				RB-High			-64	-64																					y37																													r29																													0
+Remove Rune - Ber	1			100	15	364	128		2	y01	y38						useitem				RB-High			-128	-128																					y38																													r30																													0
+Remove Rune - Jah	1			100	15	364	256		2	y01	y39						useitem				RB-High			-256	-256																					y39																													r31																													0
+Remove Rune - Cham	1			100	15	364	512		2	y01	y40						useitem				RB-High			-512	-512																					y40																													r32																													0
+Remove Rune - Zod	1			100	15	364	1024		2	y01	y41						useitem				RB-High			-1024	-1024																					y41																													r33																													0
+Rune Cycle - El	1			100					1	y09							y10																																																																																							0
+Rune Cycle - Eld	1			100					1	y10							y11																																																																																							0
+Rune Cycle - Tir	1			100					1	y11							y12																																																																																							0
+Rune Cycle - Nef	1			100					1	y12							y13																																																																																							0
+Rune Cycle - Eth	1			100					1	y13							y14																																																																																							0
+Rune Cycle - Ith	1			100					1	y14							y15																																																																																							0
+Rune Cycle - Tal	1			100					1	y15							y16																																																																																							0
+Rune Cycle - Ral	1			100					1	y16							y17																																																																																							0
+Rune Cycle - Ort	1			100					1	y17							y18																																																																																							0
+Rune Cycle - Thul	1			100					1	y18							y19																																																																																							0
+Rune Cycle - Amn	1			100					1	y19							y20																																																																																							0
+Rune Cycle - Sol	1			100					1	y20							y21																																																																																							0
+Rune Cycle - Shael	1			100					1	y21							y22																																																																																							0
+Rune Cycle - El	1			100					1	y22							y23																																																																																							0
+Rune Cycle - El	1			100					1	y23							y24																																																																																							0
+Rune Cycle - El	1			100					1	y24							y25																																																																																							0
+Rune Cycle - El	1			100					1	y25							y26																																																																																							0
+Rune Cycle - El	1			100					1	y26							y27																																																																																							0
+Rune Cycle - El	1			100					1	y27							y28																																																																																							0
+Rune Cycle - El	1			100					1	y28							y29																																																																																							0
+Rune Cycle - El	1			100					1	y29							y30																																																																																							0
+Rune Cycle - El	1			100					1	y30							y31																																																																																							0
+Rune Cycle - El	1			100					1	y31							y32																																																																																							0
+Rune Cycle - El	1			100					1	y32							y33																																																																																							0
+Rune Cycle - El	1			100					1	y33							y34																																																																																							0
+Rune Cycle - El	1			100					1	y34							y35																																																																																							0
+Rune Cycle - El	1			100					1	y35							y36																																																																																							0
+Rune Cycle - El	1			100					1	y36							y37																																																																																							0
+Rune Cycle - El	1			100					1	y37							y38																																																																																							0
+Rune Cycle - El	1			100					1	y38							y39																																																																																							0
+Rune Cycle - El	1			100					1	y39							y40																																																																																							0
+Rune Cycle - El	1			100					1	y40							y41																																																																																							0
+Rune Cycle - El	1			100					1	y41							y09																																																																																							0
+Add Gem x1	1			100					2	y01	gem						useitem				GB-Total			1	1																																																																															0
+Add Gem x2	1			100					3	y01	"gem,qty=2"						useitem				GB-Total			2	2																																																																															0
+Add Gem x3	1			100					4	y01	"gem,qty=3"						useitem				GB-Total			3	3																																																																															0
+Add Gem x4	1			100					5	y01	"gem,qty=4"						useitem				GB-Total			4	4																																																																															0
+Add Gem x5	1			100					6	y01	"gem,qty=5"						useitem				GB-Total			5	5																																																																															0
+Add Gem x6	1			100					7	y01	"gem,qty=6"						useitem				GB-Total			6	6																																																																															0
+Add Gem x7	1			100					8	y01	"gem,qty=7"						useitem				GB-Total			7	7																																																																															0
+Add Gem x8	1			100					9	y01	"gem,qty=8"						useitem				GB-Total			8	8																																																																															0
+Add Gem x9	1			100					10	y01	"gem,qty=9"						useitem				GB-Total			9	9																																																																															0
+Add Gem x10	1			100					11	y01	"gem,qty=10"						useitem				GB-Total			10	10																																																																															0
+Add Gem x11	1			100					12	y01	"gem,qty=11"						useitem				GB-Total			11	11																																																																															0
+Add Gem x12	1			100					13	y01	"gem,qty=12"						useitem				GB-Total			12	12																																																																															0
+Add Gem x13	1			100					14	y01	"gem,qty=13"						useitem				GB-Total			13	13																																																																															0
+Add Gem x14	1			100					15	y01	"gem,qty=14"						useitem				GB-Total			14	14																																																																															0
+Add Gem x15	1			100					16	y01	"gem,qty=15"						useitem				GB-Total			15	15																																																																															0
+Add Gem x16	1			100					17	y01	"gem,qty=16"						useitem				GB-Total			16	16																																																																															0
+Add Gem x17	1			100					18	y01	"gem,qty=17"						useitem				GB-Total			17	17																																																																															0
+Add Gem x18	1			100					19	y01	"gem,qty=18"						useitem				GB-Total			18	18																																																																															0
+Add Gem x19	1			100					20	y01	"gem,qty=19"						useitem				GB-Total			19	19																																																																															0
+Add Gem x20	1			100					21	y01	"gem,qty=20"						useitem				GB-Total			20	20																																																																															0
+Add Gem x21	1			100					22	y01	"gem,qty=21"						useitem				GB-Total			21	21																																																																															0
+Add Gem x22	1			100					23	y01	"gem,qty=22"						useitem				GB-Total			22	22																																																																															0
+Add Gem x23	1			100					24	y01	"gem,qty=23"						useitem				GB-Total			23	23																																																																															0
+Add Gem x24	1			100					25	y01	"gem,qty=24"						useitem				GB-Total			24	24																																																																															0
+Add Gem x25	1			100					26	y01	"gem,qty=25"						useitem				GB-Total			25	25																																																																															0
+Add Gem x26	1			100					27	y01	"gem,qty=26"						useitem				GB-Total			26	26																																																																															0
+Add Gem x27	1			100					28	y01	"gem,qty=27"						useitem				GB-Total			27	27																																																																															0
+Add Gem x28	1			100					29	y01	"gem,qty=28"						useitem				GB-Total			28	28																																																																															0
+Add Gem x29	1			100					30	y01	"gem,qty=29"						useitem				GB-Total			29	29																																																																															0
+Add Gem x30	1			100					31	y01	"gem,qty=30"						useitem				GB-Total			30	30																																																																															0
+Add Gem x31	1			100					32	y01	"gem,qty=31"						useitem				GB-Total			31	31																																																																															0
+Add Gem x32	1			100					33	y01	"gem,qty=32"						useitem				GB-Total			32	32																																																																															0
+Add Gem x33	1			100					34	y01	"gem,qty=33"						useitem				GB-Total			33	33																																																																															0
+Add Gem x34	1			100					35	y01	"gem,qty=34"						useitem				GB-Total			34	34																																																																															0
+Add Gem x35	1			100					36	y01	"gem,qty=35"						useitem				GB-Total			35	35																																																																															0
+Add Gem x36	1			100					37	y01	"gem,qty=36"						useitem				GB-Total			36	36																																																																															0
+Add Gem x37	1			100					38	y01	"gem,qty=37"						useitem				GB-Total			37	37																																																																															0
+Add Gem x38	1			100					39	y01	"gem,qty=38"						useitem				GB-Total			38	38																																																																															0
+Add Gem x39	1			100					40	y01	"gem,qty=39"						useitem				GB-Total			39	39																																																																															0
+Add Gem x40	1			100					41	y01	"gem,qty=40"						useitem				GB-Total			40	40																																																																															0
+Add Gem x41	1			100					42	y01	"gem,qty=41"						useitem				GB-Total			41	41																																																																															0
+Add Gem x42	1			100					43	y01	"gem,qty=42"						useitem				GB-Total			42	42																																																																															0
+Add Gem x43	1			100					44	y01	"gem,qty=43"						useitem				GB-Total			43	43																																																																															0
+Add Gem x44	1			100					45	y01	"gem,qty=44"						useitem				GB-Total			44	44																																																																															0
+Add Gem x45	1			100					46	y01	"gem,qty=45"						useitem				GB-Total			45	45																																																																															0
+Add Gem x46	1			100					47	y01	"gem,qty=46"						useitem				GB-Total			46	46																																																																															0
+Add Gem x47	1			100					48	y01	"gem,qty=47"						useitem				GB-Total			47	47																																																																															0
+Add Gem x48	1			100					49	y01	"gem,qty=48"						useitem				GB-Total			48	48																																																																															0
+Add Gem x49	1			100					50	y01	"gem,qty=49"						useitem				GB-Total			49	49																																																																															0
+Add Gem x50	1			100					51	y01	"gem,qty=50"						useitem				GB-Total			50	50																																																																															0
+Remove Gem - Amethyst	1			100	15	361	1		2	y01	y02						useitem				GB-Total			-1	-1																					y02																													gpv																													0
+Remove Gem - Topaz	1			100	15	361	1		2	y01	y03						useitem				GB-Total			-1	-1																					y03																													gpy																													0
+Remove Gem - Sapphire	1			100	15	361	1		2	y01	y04						useitem				GB-Total			-1	-1																					y04																													gpb																													0
+Remove Gem - Emerald	1			100	15	361	1		2	y01	y05						useitem				GB-Total			-1	-1																					y05																													gpg																													0
+Remove Gem - Ruby	1			100	15	361	1		2	y01	y06						useitem				GB-Total			-1	-1																					y06																													gpr																													0
+Remove Gem - Diamond	1			100	15	361	1		2	y01	y07						useitem				GB-Total			-1	-1																					y07																													gpw																													0
+Remove Gem - Skull	1			100	15	361	1		2	y01	y08						useitem				GB-Total			-1	-1																					y08																													skz																													0
+Add Key - Terror	1			100					2	y01	pk1						useitem				KB-Terror			1	1																																																																															0
+Add Key - Terror x2	1			100					3	y01	"pk1,qty=2"						useitem				KB-Terror			2	2																																																																															0
+Add Key - Terror x3	1			100					4	y01	"pk1,qty=3"						useitem				KB-Terror			3	3																																																																															0
+Add Key - Terror x4	1			100					5	y01	"pk1,qty=4"						useitem				KB-Terror			4	4																																																																															0
+Add Key - Terror x5	1			100					6	y01	"pk1,qty=5"						useitem				KB-Terror			5	5																																																																															0
+Add Key - Terror x6	1			100					7	y01	"pk1,qty=6"						useitem				KB-Terror			6	6																																																																															0
+Add Key - Terror x7	1			100					8	y01	"pk1,qty=7"						useitem				KB-Terror			7	7																																																																															0
+Add Key - Terror x8	1			100					9	y01	"pk1,qty=8"						useitem				KB-Terror			8	8																																																																															0
+Add Key - Terror x9	1			100					10	y01	"pk1,qty=9"						useitem				KB-Terror			9	9																																																																															0
+Add Key - Terror x10	1			100					11	y01	"pk1,qty=10"						useitem				KB-Terror			10	10																																																																															0
+Add Key - Hate	1			100					2	y01	pk2						useitem				KB-Hate			1	1																																																																															0
+Add Key - Hate x2	1			100					3	y01	"pk2,qty=2"						useitem				KB-Hate			2	2																																																																															0
+Add Key - Hate x3	1			100					4	y01	"pk2,qty=3"						useitem				KB-Hate			3	3																																																																															0
+Add Key - Hate x4	1			100					5	y01	"pk2,qty=4"						useitem				KB-Hate			4	4																																																																															0
+Add Key - Hate x5	1			100					6	y01	"pk2,qty=5"						useitem				KB-Hate			5	5																																																																															0
+Add Key - Hate x6	1			100					7	y01	"pk2,qty=6"						useitem				KB-Hate			6	6																																																																															0
+Add Key - Hate x7	1			100					8	y01	"pk2,qty=7"						useitem				KB-Hate			7	7																																																																															0
+Add Key - Hate x8	1			100					9	y01	"pk2,qty=8"						useitem				KB-Hate			8	8																																																																															0
+Add Key - Hate x9	1			100					10	y01	"pk2,qty=9"						useitem				KB-Hate			9	9																																																																															0
+Add Key - Hate x10	1			100					11	y01	"pk2,qty=10"						useitem				KB-Hate			10	10																																																																															0
+Add Key - Destruction	1			100					2	y01	pk3						useitem				KB-Dest			1	1																																																																															0
+Add Key - Destruction x2	1			100					3	y01	"pk3,qty=2"						useitem				KB-Dest			2	2																																																																															0
+Add Key - Destruction x3	1			100					4	y01	"pk3,qty=3"						useitem				KB-Dest			3	3																																																																															0
+Add Key - Destruction x4	1			100					5	y01	"pk3,qty=4"						useitem				KB-Dest			4	4																																																																															0
+Add Key - Destruction x5	1			100					6	y01	"pk3,qty=5"						useitem				KB-Dest			5	5																																																																															0
+Add Key - Destruction x6	1			100					7	y01	"pk3,qty=6"						useitem				KB-Dest			6	6																																																																															0
+Add Key - Destruction x7	1			100					8	y01	"pk3,qty=7"						useitem				KB-Dest			7	7																																																																															0
+Add Key - Destruction x8	1			100					9	y01	"pk3,qty=8"						useitem				KB-Dest			8	8																																																																															0
+Add Key - Destruction x9	1			100					10	y01	"pk3,qty=9"						useitem				KB-Dest			9	9																																																																															0
+Add Key - Destruction x10	1			100					11	y01	"pk3,qty=10"						useitem				KB-Dest			10	10																																																																															0
+Remove Key - Terror	1			100	15	365	1		2	y01	y42						useitem				KB-Terror			-1	-1																					y42																													pk1																													0
+Remove Key - Hate	1			100	15	366	1		2	y01	y43						useitem				KB-Hate			-1	-1																					y43																													pk2																													0
+Remove Key - Destruction	1			100	15	367	1		2	y01	y44						useitem				KB-Dest			-1	-1																					y44																													pk3																													0
+Remove Organ - Diablo	1			100	15	368	1		2	y01	y45						useitem				OB-Diablo			-1	-1																					y45																													dhn																													0
+Remove Organ - Baal	1			100	15	369	1		2	y01	y46						useitem				OB-Baal			-1	-1																					y46																													bey																													0
+Remove Organ - Mephisto	1			100	15	370	1		2	y01	y47						useitem				OB-Meph			-1	-1																					y47																													mbr																													0
+Cycle Gem Remover - Amethyst	1			100					1	y02							y03																																																																																							0
+Cycle Gem Remover - Amethyst	1			100					1	y03							y04																																																																																							0
+Cycle Gem Remover - Amethyst	1			100					1	y04							y05																																																																																							0
+Cycle Gem Remover - Amethyst	1			100					1	y05							y06																																																																																							0
+Cycle Gem Remover - Amethyst	1			100					1	y06							y07																																																																																							0
+Cycle Gem Remover - Amethyst	1			100					1	y07							y08																																																																																							0
+Cycle Gem Remover - Amethyst	1			100					1	y08							y02																																																																																							0
+Add Organ - Diablo	1			100					2	y01	dhn						useitem				OB-Diablo			1	1																																																																															0
+Add Organ - Diablo x2	1			100					3	y01	"dhn,qty=2"						useitem				OB-Diablo			2	2																																																																															0
+Add Organ - Diablo x3	1			100					4	y01	"dhn,qty=3"						useitem				OB-Diablo			3	3																																																																															0
+Add Organ - Diablo x4	1			100					5	y01	"dhn,qty=4"						useitem				OB-Diablo			4	4																																																																															0
+Add Organ - Diablo x5	1			100					6	y01	"dhn,qty=5"						useitem				OB-Diablo			5	5																																																																															0
+Add Organ - Diablo x6	1			100					7	y01	"dhn,qty=6"						useitem				OB-Diablo			6	6																																																																															0
+Add Organ - Diablo x7	1			100					8	y01	"dhn,qty=7"						useitem				OB-Diablo			7	7																																																																															0
+Add Organ - Diablo x8	1			100					9	y01	"dhn,qty=8"						useitem				OB-Diablo			8	8																																																																															0
+Add Organ - Diablo x9	1			100					10	y01	"dhn,qty=9"						useitem				OB-Diablo			9	9																																																																															0
+Add Organ - Diablo x10	1			100					11	y01	"dhn,qty=10"						useitem				OB-Diablo			10	10																																																																															0
+Add Organ - Baal	1			100					2	y01	bey						useitem				OB-Baal			1	1																																																																															0
+Add Organ - Baal x2	1			100					3	y01	"bey,qty=2"						useitem				OB-Baal			2	2																																																																															0
+Add Organ - Baal x3	1			100					4	y01	"bey,qty=3"						useitem				OB-Baal			3	3																																																																															0
+Add Organ - Baal x4	1			100					5	y01	"bey,qty=4"						useitem				OB-Baal			4	4																																																																															0
+Add Organ - Baal x5	1			100					6	y01	"bey,qty=5"						useitem				OB-Baal			5	5																																																																															0
+Add Organ - Baal x6	1			100					7	y01	"bey,qty=6"						useitem				OB-Baal			6	6																																																																															0
+Add Organ - Baal x7	1			100					8	y01	"bey,qty=7"						useitem				OB-Baal			7	7																																																																															0
+Add Organ - Baal x8	1			100					9	y01	"bey,qty=8"						useitem				OB-Baal			8	8																																																																															0
+Add Organ - Baal x9	1			100					10	y01	"bey,qty=9"						useitem				OB-Baal			9	9																																																																															0
+Add Organ - Baal x10	1			100					11	y01	"bey,qty=10"						useitem				OB-Baal			10	10																																																																															0
+Add Organ - Mephisto	1			100					2	y01	mbr						useitem				OB-Meph			1	1																																																																															0
+Add Organ - Mephisto x2	1			100					3	y01	"mbr,qty=2"						useitem				OB-Meph			2	2																																																																															0
+Add Organ - Mephisto x3	1			100					4	y01	"mbr,qty=3"						useitem				OB-Meph			3	3																																																																															0
+Add Organ - Mephisto x4	1			100					5	y01	"mbr,qty=4"						useitem				OB-Meph			4	4																																																																															0
+Add Organ - Mephisto x5	1			100					6	y01	"mbr,qty=5"						useitem				OB-Meph			5	5																																																																															0
+Add Organ - Mephisto x6	1			100					7	y01	"mbr,qty=6"						useitem				OB-Meph			6	6																																																																															0
+Add Organ - Mephisto x7	1			100					8	y01	"mbr,qty=7"						useitem				OB-Meph			7	7																																																																															0
+Add Organ - Mephisto x8	1			100					9	y01	"mbr,qty=8"						useitem				OB-Meph			8	8																																																																															0
+Add Organ - Mephisto x9	1			100					10	y01	"mbr,qty=9"						useitem				OB-Meph			9	9																																																																															0
+Add Organ - Mephisto x10	1			100					11	y01	"mbr,qty=10"						useitem				OB-Meph			10	10																																																																															0
+Key Cycle - Terror	1			100					1	y42							y43																																																																																							0
+Key Cycle - Hate	1			100					1	y43							y44																																																																																							0
+Key Cycle - Destruction	1			100					1	y44							y45																																																																																							0
+Organ Cycle - Diablo	1			100					1	y45							y46																																																																																							0
+Organ Cycle - Baal	1			100					1	y46							y47																																																																																							0
+Organ Cycle - Mephisto	1			100					1	y47							y42																																																																																							0
+Rune Convert - Low -> Mid	1			100	15	362	2048		2	y01	y48						useitem				RB-Low			-2048	-2048	RB-Mid			1	1																y48																																																										0
+Rune Convert - Mid -> High	1			100	15	363	2048		2	y01	y49						useitem				RB-Mid			-2048	-2048	RB-High			1	1																y49																																																										0
+Rune Convert - Low <- Mid	1			100	15	363	1		2	y01	y50						useitem				RB-Low			2048	2048	RB-Mid			-1	-1																y50																																																										0
+Rune Convert - Mid <- High	1			100	15	364	1		2	y01	y51						useitem				RB-Mid			2048	2048	RB-High			-1	-1																y51																																																										0
+Rune Convert Cycle	1			100					1	y48							y49																																																																																							0
+Rune Convert Cycle	1			100					1	y49							y50																																																																																							0
+Rune Convert Cycle	1			100					1	y50							y51																																																																																							0
+Rune Convert Cycle	1			100					1	y51							y48																																																																																							0
+Create White Dye	1			100	15	361	50		3	y01	y07	y52					useitem				GB-Total			-50	-50																					y07																													y53																													0
+Create Black Dye	1			100	15	361	50		3	y01	y08	y52					useitem				GB-Total			-50	-50																					y08																													y54																													0
+Create Blue Dye	1			100	15	361	50		3	y01	y04	y52					useitem				GB-Total			-50	-50																					y04																													y55																													0
+Create Red Dye	1			100	15	361	50		3	y01	y06	y52					useitem				GB-Total			-50	-50																					y06																													y56																													0
+Create Green Dye	1			100	15	361	50		3	y01	y05	y52					useitem				GB-Total			-50	-50																					y05																													y57																													0
+Create Yellow Dye	1			100	15	361	50		3	y01	y03	y52					useitem				GB-Total			-50	-50																					y03																													y58																													0
+Create Purple Dye	1			100	15	361	50		3	y01	y02	y52					useitem				GB-Total			-50	-50																					y02																													y59																													0
+Weapon Dye - Normal -> White	1			100	18	378	0		2	weap	y53						useitem				CD-White			1	1	state		190	1	1	CD-Tracker			1	1																																																																					0
+Weapon Dye - Normal -> Black	1			100	18	378	0		2	weap	y54						useitem				CD-Black			1	1	state		191	1	1	CD-Tracker			2	2																																																																					0
+Weapon Dye - Normal -> Blue	1			100	18	378	0		2	weap	y55						useitem				CD-Blue			1	1	state		192	1	1	CD-Tracker			3	3																																																																					0
+Weapon Dye - Normal -> Red	1			100	18	378	0		2	weap	y56						useitem				CD-Red			1	1	state		193	1	1	CD-Tracker			4	4																																																																					0
+Weapon Dye - Normal -> Green	1			100	18	378	0		2	weap	y57						useitem				CD-Green			1	1	state		194	1	1	CD-Tracker			5	5																																																																					0
+Weapon Dye - Normal -> Yellow	1			100	18	378	0		2	weap	y58						useitem				CD-Yellow			1	1	state		195	1	1	CD-Tracker			6	6																																																																					0
+Weapon Dye - Normal -> Purple	1			100	18	378	0		2	weap	y59						useitem				CD-Purple			1	1	state		196	1	1	CD-Tracker			7	7																																																																					0
+Weapon Dye - White -> Black	1			100	18	378	1		2	weap	y54						useitem				CD-Black			1	1	state		191	1	1	CD-Tracker			1	1	CD-White			-1	-1	state		190	-1	-1																																																											0
+Weapon Dye - White -> Blue	1			100	18	378	1		2	weap	y55						useitem				CD-Blue			1	1	state		192	1	1	CD-Tracker			2	2	CD-White			-1	-1	state		190	-1	-1																																																											0
+Weapon Dye - White -> Red	1			100	18	378	1		2	weap	y56						useitem				CD-Red			1	1	state		193	1	1	CD-Tracker			3	3	CD-White			-1	-1	state		190	-1	-1																																																											0
+Weapon Dye - White -> Green	1			100	18	378	1		2	weap	y57						useitem				CD-Green			1	1	state		194	1	1	CD-Tracker			4	4	CD-White			-1	-1	state		190	-1	-1																																																											0
+Weapon Dye - White -> Yellow	1			100	18	378	1		2	weap	y58						useitem				CD-Yellow			1	1	state		195	1	1	CD-Tracker			5	5	CD-White			-1	-1	state		190	-1	-1																																																											0
+Weapon Dye - White -> Purple	1			100	18	378	1		2	weap	y59						useitem				CD-Purple			1	1	state		196	1	1	CD-Tracker			6	6	CD-White			-1	-1	state		190	-1	-1																																																											0
+Weapon Dye - White -> Clear	1			100	18	378	1		2	weap	y52						useitem				CD-White			-1	-1	state		190	-1	-1	CD-Tracker			-1	-1																																																																					0
+Weapon Dye - Black -> Blue	1			100	18	378	2		2	weap	y55						useitem				CD-Blue			1	1	state		192	1	1	CD-Tracker			1	1	CD-Black			-1	-1	state		191	-1	-1																																																											0
+Weapon Dye - Black -> Red	1			100	18	378	2		2	weap	y56						useitem				CD-Red			1	1	state		193	1	1	CD-Tracker			2	2	CD-Black			-1	-1	state		191	-1	-1																																																											0
+Weapon Dye - Black -> Green	1			100	18	378	2		2	weap	y57						useitem				CD-Green			1	1	state		194	1	1	CD-Tracker			3	3	CD-Black			-1	-1	state		191	-1	-1																																																											0
+Weapon Dye - Black -> Yellow	1			100	18	378	2		2	weap	y58						useitem				CD-Yellow			1	1	state		195	1	1	CD-Tracker			4	4	CD-Black			-1	-1	state		191	-1	-1																																																											0
+Weapon Dye - Black -> Purple	1			100	18	378	2		2	weap	y59						useitem				CD-Purple			1	1	state		196	1	1	CD-Tracker			5	5	CD-Black			-1	-1	state		191	-1	-1																																																											0
+Weapon Dye - Black -> White	1			100	18	378	2		2	weap	y53						useitem				CD-White			1	1	state		190	1	1	CD-Tracker			-1	-1	CD-Black			-1	-1	state		191	-1	-1																																																											0
+Weapon Dye - Black -> Clear	1			100	18	378	2		2	weap	y52						useitem				CD-Black			-1	-1	state		191	-1	-1	CD-Tracker			-2	-2																																																																					0
+Weapon Dye - Blue -> Red	1			100	18	378	3		2	weap	y56						useitem				CD-Red			1	1	state		193	1	1	CD-Tracker			1	1	CD-Blue			-1	-1	state		192	-1	-1																																																											0
+Weapon Dye - Blue -> Green	1			100	18	378	3		2	weap	y57						useitem				CD-Green			1	1	state		194	1	1	CD-Tracker			2	2	CD-Blue			-1	-1	state		192	-1	-1																																																											0
+Weapon Dye - Blue -> Yellow	1			100	18	378	3		2	weap	y58						useitem				CD-Yellow			1	1	state		195	1	1	CD-Tracker			3	3	CD-Blue			-1	-1	state		192	-1	-1																																																											0
+Weapon Dye - Blue -> Purple	1			100	18	378	3		2	weap	y59						useitem				CD-Purple			1	1	state		196	1	1	CD-Tracker			4	4	CD-Blue			-1	-1	state		192	-1	-1																																																											0
+Weapon Dye - Blue -> White	1			100	18	378	3		2	weap	y53						useitem				CD-White			1	1	state		190	1	1	CD-Tracker			-2	-2	CD-Blue			-1	-1	state		192	-1	-1																																																											0
+Weapon Dye - Blue -> Black	1			100	18	378	3		2	weap	y54						useitem				CD-Black			1	1	state		191	1	1	CD-Tracker			-1	-1	CD-Blue			-1	-1	state		192	-1	-1																																																											0
+Weapon Dye - Blue -> Clear	1			100	18	378	3		2	weap	y52						useitem				CD-Blue			-1	-1	state		192	-1	-1	CD-Tracker			-3	-3																																																																					0
+Weapon Dye - Red -> Green	1			100	18	378	4		2	weap	y57						useitem				CD-Green			1	1	state		194	1	1	CD-Tracker			1	1	CD-Red			-1	-1	state		193	-1	-1																																																											0
+Weapon Dye - Red -> Yellow	1			100	18	378	4		2	weap	y58						useitem				CD-Yellow			1	1	state		195	1	1	CD-Tracker			2	2	CD-Red			-1	-1	state		193	-1	-1																																																											0
+Weapon Dye - Red -> Purple	1			100	18	378	4		2	weap	y59						useitem				CD-Purple			1	1	state		196	1	1	CD-Tracker			3	3	CD-Red			-1	-1	state		193	-1	-1																																																											0
+Weapon Dye - Red -> White	1			100	18	378	4		2	weap	y53						useitem				CD-White			1	1	state		190	1	1	CD-Tracker			-3	-3	CD-Red			-1	-1	state		193	-1	-1																																																											0
+Weapon Dye - Red -> Black	1			100	18	378	4		2	weap	y54						useitem				CD-Black			1	1	state		191	1	1	CD-Tracker			-2	-2	CD-Red			-1	-1	state		193	-1	-1																																																											0
+Weapon Dye - Red -> Blue	1			100	18	378	4		2	weap	y55						useitem				CD-Blue			1	1	state		192	1	1	CD-Tracker			-1	-1	CD-Red			-1	-1	state		193	-1	-1																																																											0
+Weapon Dye - Red -> Clear	1			100	18	378	4		2	weap	y52						useitem				CD-Red			-1	-1	state		193	-1	-1	CD-Tracker			-4	-4																																																																					0
+Weapon Dye - Green -> Yellow	1			100	18	378	5		2	weap	y58						useitem				CD-Yellow			1	1	state		195	1	1	CD-Tracker			1	1	CD-Green			-1	-1	state		194	-1	-1																																																											0
+Weapon Dye - Green -> Purple	1			100	18	378	5		2	weap	y59						useitem				CD-Purple			1	1	state		196	1	1	CD-Tracker			2	2	CD-Green			-1	-1	state		194	-1	-1																																																											0
+Weapon Dye - Green -> White	1			100	18	378	5		2	weap	y53						useitem				CD-White			1	1	state		190	1	1	CD-Tracker			-4	-4	CD-Green			-1	-1	state		194	-1	-1																																																											0
+Weapon Dye - Green -> Black	1			100	18	378	5		2	weap	y54						useitem				CD-Black			1	1	state		191	1	1	CD-Tracker			-3	-3	CD-Green			-1	-1	state		194	-1	-1																																																											0
+Weapon Dye - Green -> Blue	1			100	18	378	5		2	weap	y55						useitem				CD-Blue			1	1	state		192	1	1	CD-Tracker			-2	-2	CD-Green			-1	-1	state		194	-1	-1																																																											0
+Weapon Dye - Green -> Red	1			100	18	378	5		2	weap	y56						useitem				CD-Red			1	1	state		193	1	1	CD-Tracker			-1	-1	CD-Green			-1	-1	state		194	-1	-1																																																											0
+Weapon Dye - Green -> Clear	1			100	18	378	5		2	weap	y52						useitem				CD-Green			-1	-1	state		194	-1	-1	CD-Tracker			-5	-5																																																																					0
+Weapon Dye - Yellow -> Purple	1			100	18	378	6		2	weap	y59						useitem				CD-Purple			1	1	state		196	1	1	CD-Tracker			1	1	CD-Yellow			-1	-1	state		195	-1	-1																																																											0
+Weapon Dye - Yellow -> White	1			100	18	378	6		2	weap	y53						useitem				CD-White			1	1	state		190	1	1	CD-Tracker			-5	-5	CD-Yellow			-1	-1	state		195	-1	-1																																																											0
+Weapon Dye - Yellow -> Black	1			100	18	378	6		2	weap	y54						useitem				CD-Black			1	1	state		191	1	1	CD-Tracker			-4	-4	CD-Yellow			-1	-1	state		195	-1	-1																																																											0
+Weapon Dye - Yellow -> Blue	1			100	18	378	6		2	weap	y55						useitem				CD-Blue			1	1	state		192	1	1	CD-Tracker			-3	-3	CD-Yellow			-1	-1	state		195	-1	-1																																																											0
+Weapon Dye - Yellow -> Red	1			100	18	378	6		2	weap	y56						useitem				CD-Red			1	1	state		193	1	1	CD-Tracker			-2	-2	CD-Yellow			-1	-1	state		195	-1	-1																																																											0
+Weapon Dye - Yellow -> Green	1			100	18	378	6		2	weap	y57						useitem				CD-Green			1	1	state		194	1	1	CD-Tracker			-1	-1	CD-Yellow			-1	-1	state		195	-1	-1																																																											0
+Weapon Dye - Yellow -> Clear	1			100	18	378	6		2	weap	y52						useitem				CD-Yellow			-1	-1	state		195	-1	-1	CD-Tracker			-6	-6																																																																					0
+Weapon Dye - Purple -> White	1			100	18	378	7		2	weap	y53						useitem				CD-White			1	1	state		190	1	1	CD-Tracker			-6	-6	CD-Purple			-1	-1	state		196	-1	-1																																																											0
+Weapon Dye - Purple -> Black	1			100	18	378	7		2	weap	y54						useitem				CD-Black			1	1	state		191	1	1	CD-Tracker			-5	-5	CD-Purple			-1	-1	state		196	-1	-1																																																											0
+Weapon Dye - Purple -> Blue	1			100	18	378	7		2	weap	y55						useitem				CD-Blue			1	1	state		192	1	1	CD-Tracker			-4	-4	CD-Purple			-1	-1	state		196	-1	-1																																																											0
+Weapon Dye - Purple -> Red	1			100	18	378	7		2	weap	y56						useitem				CD-Red			1	1	state		193	1	1	CD-Tracker			-3	-3	CD-Purple			-1	-1	state		196	-1	-1																																																											0
+Weapon Dye - Purple -> Green	1			100	18	378	7		2	weap	y57						useitem				CD-Green			1	1	state		194	1	1	CD-Tracker			-2	-2	CD-Purple			-1	-1	state		196	-1	-1																																																											0
+Weapon Dye - Purple -> Yellow	1			100	18	378	7		2	weap	y58						useitem				CD-Yellow			1	1	state		195	1	1	CD-Tracker			-1	-1	CD-Purple			-1	-1	state		196	-1	-1																																																											0
+Weapon Dye - Purple -> Clear	1			100	18	378	7		2	weap	y52						useitem				CD-Purple			-1	-1	state		196	-1	-1	CD-Tracker			-7	-7																																																																					0
+Helm Dye - Normal -> White	1			100	18	378	0		2	helm	y53						useitem				CD-White			1	1	state		197	1	1	CD-Tracker			1	1				-1	-1																																																																0
+Helm Dye - Normal -> Black	1			100	18	378	0		2	helm	y54						useitem				CD-Black			1	1	state		198	1	1	CD-Tracker			2	2				-1	-1																																																																0
+Helm Dye - Normal -> Blue	1			100	18	378	0		2	helm	y55						useitem				CD-Blue			1	1	state		199	1	1	CD-Tracker			3	3				-1	-1																																																																0
+Helm Dye - Normal -> Red	1			100	18	378	0		2	helm	y56						useitem				CD-Red			1	1	state		200	1	1	CD-Tracker			4	4				-1	-1																																																																0
+Helm Dye - Normal -> Green	1			100	18	378	0		2	helm	y57						useitem				CD-Green			1	1	state		201	1	1	CD-Tracker			5	5				-1	-1																																																																0
+Helm Dye - Normal -> Yellow	1			100	18	378	0		2	helm	y58						useitem				CD-Yellow			1	1	state		202	1	1	CD-Tracker			6	6				-1	-1																																																																0
+Helm Dye - Normal -> Purple	1			100	18	378	0		2	helm	y59						useitem				CD-Purple			1	1	state		203	1	1	CD-Tracker			7	7				-1	-1																																																																0
+Helm Dye - White -> Black	1			100	18	378	1		2	helm	y54						useitem				CD-Black			1	1	state		198	1	1	CD-Tracker			1	1	CD-White			-1	-1	state		197	-1	-1																																																											0
+Helm Dye - White -> Blue	1			100	18	378	1		2	helm	y55						useitem				CD-Blue			1	1	state		199	1	1	CD-Tracker			2	2	CD-White			-1	-1	state		197	-1	-1																																																											0
+Helm Dye - White -> Red	1			100	18	378	1		2	helm	y56						useitem				CD-Red			1	1	state		200	1	1	CD-Tracker			3	3	CD-White			-1	-1	state		197	-1	-1																																																											0
+Helm Dye - White -> Green	1			100	18	378	1		2	helm	y57						useitem				CD-Green			1	1	state		201	1	1	CD-Tracker			4	4	CD-White			-1	-1	state		197	-1	-1																																																											0
+Helm Dye - White -> Yellow	1			100	18	378	1		2	helm	y58						useitem				CD-Yellow			1	1	state		202	1	1	CD-Tracker			5	5	CD-White			-1	-1	state		197	-1	-1																																																											0
+Helm Dye - White -> Purple	1			100	18	378	1		2	helm	y59						useitem				CD-Purple			1	1	state		203	1	1	CD-Tracker			6	6	CD-White			-1	-1	state		197	-1	-1																																																											0
+Helm Dye - White -> Clear	1			100	18	378	1		2	helm	y52						useitem				CD-White			-1	-1	state		197	-1	-1	CD-Tracker			-1	-1																																																																					0
+Helm Dye - Black -> Blue	1			100	18	378	2		2	helm	y55						useitem				CD-Blue			1	1	state		199	1	1	CD-Tracker			1	1	CD-Black			-1	-1	state		198	-1	-1																																																											0
+Helm Dye - Black -> Red	1			100	18	378	2		2	helm	y56						useitem				CD-Red			1	1	state		200	1	1	CD-Tracker			2	2	CD-Black			-1	-1	state		198	-1	-1																																																											0
+Helm Dye - Black -> Green	1			100	18	378	2		2	helm	y57						useitem				CD-Green			1	1	state		201	1	1	CD-Tracker			3	3	CD-Black			-1	-1	state		198	-1	-1																																																											0
+Helm Dye - Black -> Yellow	1			100	18	378	2		2	helm	y58						useitem				CD-Yellow			1	1	state		202	1	1	CD-Tracker			4	4	CD-Black			-1	-1	state		198	-1	-1																																																											0
+Helm Dye - Black -> Purple	1			100	18	378	2		2	helm	y59						useitem				CD-Purple			1	1	state		203	1	1	CD-Tracker			5	5	CD-Black			-1	-1	state		198	-1	-1																																																											0
+Helm Dye - Black -> White	1			100	18	378	2		2	helm	y53						useitem				CD-White			1	1	state		197	1	1	CD-Tracker			-1	-1	CD-Black			-1	-1	state		198	-1	-1																																																											0
+Helm Dye - Black -> Clear	1			100	18	378	2		2	helm	y52						useitem				CD-Black			-1	-1	state		198	-1	-1	CD-Tracker			-2	-2																																																																					0
+Helm Dye - Blue -> Red	1			100	18	378	3		2	helm	y56						useitem				CD-Red			1	1	state		200	1	1	CD-Tracker			1	1	CD-Blue			-1	-1	state		199	-1	-1																																																											0
+Helm Dye - Blue -> Green	1			100	18	378	3		2	helm	y57						useitem				CD-Green			1	1	state		201	1	1	CD-Tracker			2	2	CD-Blue			-1	-1	state		199	-1	-1																																																											0
+Helm Dye - Blue -> Yellow	1			100	18	378	3		2	helm	y58						useitem				CD-Yellow			1	1	state		202	1	1	CD-Tracker			3	3	CD-Blue			-1	-1	state		199	-1	-1																																																											0
+Helm Dye - Blue -> Purple	1			100	18	378	3		2	helm	y59						useitem				CD-Purple			1	1	state		203	1	1	CD-Tracker			4	4	CD-Blue			-1	-1	state		199	-1	-1																																																											0
+Helm Dye - Blue -> White	1			100	18	378	3		2	helm	y53						useitem				CD-White			1	1	state		197	1	1	CD-Tracker			-2	-2	CD-Blue			-1	-1	state		199	-1	-1																																																											0
+Helm Dye - Blue -> Black	1			100	18	378	3		2	helm	y54						useitem				CD-Black			1	1	state		198	1	1	CD-Tracker			-1	-1	CD-Blue			-1	-1	state		199	-1	-1																																																											0
+Helm Dye - Blue -> Clear	1			100	18	378	3		2	helm	y52						useitem				CD-Blue			-1	-1	state		199	-1	-1	CD-Tracker			-3	-3																																																																					0
+Helm Dye - Red -> Green	1			100	18	378	4		2	helm	y57						useitem				CD-Green			1	1	state		201	1	1	CD-Tracker			1	1	CD-Red			-1	-1	state		200	-1	-1																																																											0
+Helm Dye - Red -> Yellow	1			100	18	378	4		2	helm	y58						useitem				CD-Yellow			1	1	state		202	1	1	CD-Tracker			2	2	CD-Red			-1	-1	state		200	-1	-1																																																											0
+Helm Dye - Red -> Purple	1			100	18	378	4		2	helm	y59						useitem				CD-Purple			1	1	state		203	1	1	CD-Tracker			3	3	CD-Red			-1	-1	state		200	-1	-1																																																											0
+Helm Dye - Red -> White	1			100	18	378	4		2	helm	y53						useitem				CD-White			1	1	state		197	1	1	CD-Tracker			-3	-3	CD-Red			-1	-1	state		200	-1	-1																																																											0
+Helm Dye - Red -> Black	1			100	18	378	4		2	helm	y54						useitem				CD-Black			1	1	state		198	1	1	CD-Tracker			-2	-2	CD-Red			-1	-1	state		200	-1	-1																																																											0
+Helm Dye - Red -> Blue	1			100	18	378	4		2	helm	y55						useitem				CD-Blue			1	1	state		199	1	1	CD-Tracker			-1	-1	CD-Red			-1	-1	state		200	-1	-1																																																											0
+Helm Dye - Red -> Clear	1			100	18	378	4		2	helm	y52						useitem				CD-Red			-1	-1	state		200	-1	-1	CD-Tracker			-4	-4																																																																					0
+Helm Dye - Green -> Yellow	1			100	18	378	5		2	helm	y58						useitem				CD-Yellow			1	1	state		202	1	1	CD-Tracker			1	1	CD-Green			-1	-1	state		201	-1	-1																																																											0
+Helm Dye - Green -> Purple	1			100	18	378	5		2	helm	y59						useitem				CD-Purple			1	1	state		203	1	1	CD-Tracker			2	2	CD-Green			-1	-1	state		201	-1	-1																																																											0
+Helm Dye - Green -> White	1			100	18	378	5		2	helm	y53						useitem				CD-White			1	1	state		197	1	1	CD-Tracker			-4	-4	CD-Green			-1	-1	state		201	-1	-1																																																											0
+Helm Dye - Green -> Black	1			100	18	378	5		2	helm	y54						useitem				CD-Black			1	1	state		198	1	1	CD-Tracker			-3	-3	CD-Green			-1	-1	state		201	-1	-1																																																											0
+Helm Dye - Green -> Blue	1			100	18	378	5		2	helm	y55						useitem				CD-Blue			1	1	state		199	1	1	CD-Tracker			-2	-2	CD-Green			-1	-1	state		201	-1	-1																																																											0
+Helm Dye - Green -> Red	1			100	18	378	5		2	helm	y56						useitem				CD-Red			1	1	state		200	1	1	CD-Tracker			-1	-1	CD-Green			-1	-1	state		201	-1	-1																																																											0
+Helm Dye - Green -> Clear	1			100	18	378	5		2	helm	y52						useitem				CD-Green			-1	-1	state		201	-1	-1	CD-Tracker			-5	-5																																																																					0
+Helm Dye - Yellow -> Purple	1			100	18	378	6		2	helm	y59						useitem				CD-Purple			1	1	state		203	1	1	CD-Tracker			1	1	CD-Yellow			-1	-1	state		202	-1	-1																																																											0
+Helm Dye - Yellow -> White	1			100	18	378	6		2	helm	y53						useitem				CD-White			1	1	state		197	1	1	CD-Tracker			-5	-5	CD-Yellow			-1	-1	state		202	-1	-1																																																											0
+Helm Dye - Yellow -> Black	1			100	18	378	6		2	helm	y54						useitem				CD-Black			1	1	state		198	1	1	CD-Tracker			-4	-4	CD-Yellow			-1	-1	state		202	-1	-1																																																											0
+Helm Dye - Yellow -> Blue	1			100	18	378	6		2	helm	y55						useitem				CD-Blue			1	1	state		199	1	1	CD-Tracker			-3	-3	CD-Yellow			-1	-1	state		202	-1	-1																																																											0
+Helm Dye - Yellow -> Red	1			100	18	378	6		2	helm	y56						useitem				CD-Red			1	1	state		200	1	1	CD-Tracker			-2	-2	CD-Yellow			-1	-1	state		202	-1	-1																																																											0
+Helm Dye - Yellow -> Green	1			100	18	378	6		2	helm	y57						useitem				CD-Green			1	1	state		201	1	1	CD-Tracker			-1	-1	CD-Yellow			-1	-1	state		202	-1	-1																																																											0
+Helm Dye - Yellow -> Clear	1			100	18	378	6		2	helm	y52						useitem				CD-Yellow			-1	-1	state		202	-1	-1	CD-Tracker			-6	-6																																																																					0
+Helm Dye - Purple -> White	1			100	18	378	7		2	helm	y53						useitem				CD-White			1	1	state		197	1	1	CD-Tracker			-6	-6	CD-Purple			-1	-1	state		203	-1	-1																																																											0
+Helm Dye - Purple -> Black	1			100	18	378	7		2	helm	y54						useitem				CD-Black			1	1	state		198	1	1	CD-Tracker			-5	-5	CD-Purple			-1	-1	state		203	-1	-1																																																											0
+Helm Dye - Purple -> Blue	1			100	18	378	7		2	helm	y55						useitem				CD-Blue			1	1	state		199	1	1	CD-Tracker			-4	-4	CD-Purple			-1	-1	state		203	-1	-1																																																											0
+Helm Dye - Purple -> Red	1			100	18	378	7		2	helm	y56						useitem				CD-Red			1	1	state		200	1	1	CD-Tracker			-3	-3	CD-Purple			-1	-1	state		203	-1	-1																																																											0
+Helm Dye - Purple -> Green	1			100	18	378	7		2	helm	y57						useitem				CD-Green			1	1	state		201	1	1	CD-Tracker			-2	-2	CD-Purple			-1	-1	state		203	-1	-1																																																											0
+Helm Dye - Purple -> Yellow	1			100	18	378	7		2	helm	y58						useitem				CD-Yellow			1	1	state		202	1	1	CD-Tracker			-1	-1	CD-Purple			-1	-1	state		203	-1	-1																																																											0
+Helm Dye - Purple -> Clear	1			100	18	378	7		2	helm	y52						useitem				CD-Purple			-1	-1	state		203	-1	-1	CD-Tracker			-7	-7																																																																					0
+Shield Dye - Normal -> White	1			100	18	378	0		2	shld	y53						useitem				CD-White			1	1	state		204	1	1	CD-Tracker			1	1				-1	-1																																																																0
+Shield Dye - Normal -> Black	1			100	18	378	0		2	shld	y54						useitem				CD-Black			1	1	state		205	1	1	CD-Tracker			2	2				-1	-1																																																																0
+Shield Dye - Normal -> Blue	1			100	18	378	0		2	shld	y55						useitem				CD-Blue			1	1	state		206	1	1	CD-Tracker			3	3				-1	-1																																																																0
+Shield Dye - Normal -> Red	1			100	18	378	0		2	shld	y56						useitem				CD-Red			1	1	state		207	1	1	CD-Tracker			4	4				-1	-1																																																																0
+Shield Dye - Normal -> Green	1			100	18	378	0		2	shld	y57						useitem				CD-Green			1	1	state		208	1	1	CD-Tracker			5	5				-1	-1																																																																0
+Shield Dye - Normal -> Yellow	1			100	18	378	0		2	shld	y58						useitem				CD-Yellow			1	1	state		209	1	1	CD-Tracker			6	6				-1	-1																																																																0
+Shield Dye - Normal -> Purple	1			100	18	378	0		2	shld	y59						useitem				CD-Purple			1	1	state		210	1	1	CD-Tracker			7	7				-1	-1																																																																0
+Shield Dye - White -> Black	1			100	18	378	1		2	shld	y54						useitem				CD-Black			1	1	state		205	1	1	CD-Tracker			1	1	CD-White			-1	-1	state		204	-1	-1																																																											0
+Shield Dye - White -> Blue	1			100	18	378	1		2	shld	y55						useitem				CD-Blue			1	1	state		206	1	1	CD-Tracker			2	2	CD-White			-1	-1	state		204	-1	-1																																																											0
+Shield Dye - White -> Red	1			100	18	378	1		2	shld	y56						useitem				CD-Red			1	1	state		207	1	1	CD-Tracker			3	3	CD-White			-1	-1	state		204	-1	-1																																																											0
+Shield Dye - White -> Green	1			100	18	378	1		2	shld	y57						useitem				CD-Green			1	1	state		208	1	1	CD-Tracker			4	4	CD-White			-1	-1	state		204	-1	-1																																																											0
+Shield Dye - White -> Yellow	1			100	18	378	1		2	shld	y58						useitem				CD-Yellow			1	1	state		209	1	1	CD-Tracker			5	5	CD-White			-1	-1	state		204	-1	-1																																																											0
+Shield Dye - White -> Purple	1			100	18	378	1		2	shld	y59						useitem				CD-Purple			1	1	state		210	1	1	CD-Tracker			6	6	CD-White			-1	-1	state		204	-1	-1																																																											0
+Shield Dye - White -> Clear	1			100	18	378	1		2	shld	y52						useitem				CD-White			-1	-1	state		204	-1	-1	CD-Tracker			-1	-1																																																																					0
+Shield Dye - Black -> Blue	1			100	18	378	2		2	shld	y55						useitem				CD-Blue			1	1	state		206	1	1	CD-Tracker			1	1	CD-Black			-1	-1	state		205	-1	-1																																																											0
+Shield Dye - Black -> Red	1			100	18	378	2		2	shld	y56						useitem				CD-Red			1	1	state		207	1	1	CD-Tracker			2	2	CD-Black			-1	-1	state		205	-1	-1																																																											0
+Shield Dye - Black -> Green	1			100	18	378	2		2	shld	y57						useitem				CD-Green			1	1	state		208	1	1	CD-Tracker			3	3	CD-Black			-1	-1	state		205	-1	-1																																																											0
+Shield Dye - Black -> Yellow	1			100	18	378	2		2	shld	y58						useitem				CD-Yellow			1	1	state		209	1	1	CD-Tracker			4	4	CD-Black			-1	-1	state		205	-1	-1																																																											0
+Shield Dye - Black -> Purple	1			100	18	378	2		2	shld	y59						useitem				CD-Purple			1	1	state		210	1	1	CD-Tracker			5	5	CD-Black			-1	-1	state		205	-1	-1																																																											0
+Shield Dye - Black -> White	1			100	18	378	2		2	shld	y53						useitem				CD-White			1	1	state		204	1	1	CD-Tracker			-1	-1	CD-Black			-1	-1	state		205	-1	-1																																																											0
+Shield Dye - Black -> Clear	1			100	18	378	2		2	shld	y52						useitem				CD-Black			-1	-1	state		205	-1	-1	CD-Tracker			-2	-2																																																																					0
+Shield Dye - Blue -> Red	1			100	18	378	3		2	shld	y56						useitem				CD-Red			1	1	state		207	1	1	CD-Tracker			1	1	CD-Blue			-1	-1	state		206	-1	-1																																																											0
+Shield Dye - Blue -> Green	1			100	18	378	3		2	shld	y57						useitem				CD-Green			1	1	state		208	1	1	CD-Tracker			2	2	CD-Blue			-1	-1	state		206	-1	-1																																																											0
+Shield Dye - Blue -> Yellow	1			100	18	378	3		2	shld	y58						useitem				CD-Yellow			1	1	state		209	1	1	CD-Tracker			3	3	CD-Blue			-1	-1	state		206	-1	-1																																																											0
+Shield Dye - Blue -> Purple	1			100	18	378	3		2	shld	y59						useitem				CD-Purple			1	1	state		210	1	1	CD-Tracker			4	4	CD-Blue			-1	-1	state		206	-1	-1																																																											0
+Shield Dye - Blue -> White	1			100	18	378	3		2	shld	y53						useitem				CD-White			1	1	state		204	1	1	CD-Tracker			-2	-2	CD-Blue			-1	-1	state		206	-1	-1																																																											0
+Shield Dye - Blue -> Black	1			100	18	378	3		2	shld	y54						useitem				CD-Black			1	1	state		205	1	1	CD-Tracker			-1	-1	CD-Blue			-1	-1	state		206	-1	-1																																																											0
+Shield Dye - Blue -> Clear	1			100	18	378	3		2	shld	y52						useitem				CD-Blue			-1	-1	state		206	-1	-1	CD-Tracker			-3	-3																																																																					0
+Shield Dye - Red -> Green	1			100	18	378	4		2	shld	y57						useitem				CD-Green			1	1	state		208	1	1	CD-Tracker			1	1	CD-Red			-1	-1	state		207	-1	-1																																																											0
+Shield Dye - Red -> Yellow	1			100	18	378	4		2	shld	y58						useitem				CD-Yellow			1	1	state		209	1	1	CD-Tracker			2	2	CD-Red			-1	-1	state		207	-1	-1																																																											0
+Shield Dye - Red -> Purple	1			100	18	378	4		2	shld	y59						useitem				CD-Purple			1	1	state		210	1	1	CD-Tracker			3	3	CD-Red			-1	-1	state		207	-1	-1																																																											0
+Shield Dye - Red -> White	1			100	18	378	4		2	shld	y53						useitem				CD-White			1	1	state		204	1	1	CD-Tracker			-3	-3	CD-Red			-1	-1	state		207	-1	-1																																																											0
+Shield Dye - Red -> Black	1			100	18	378	4		2	shld	y54						useitem				CD-Black			1	1	state		205	1	1	CD-Tracker			-2	-2	CD-Red			-1	-1	state		207	-1	-1																																																											0
+Shield Dye - Red -> Blue	1			100	18	378	4		2	shld	y55						useitem				CD-Blue			1	1	state		206	1	1	CD-Tracker			-1	-1	CD-Red			-1	-1	state		207	-1	-1																																																											0
+Shield Dye - Red -> Clear	1			100	18	378	4		2	shld	y52						useitem				CD-Red			-1	-1	state		207	-1	-1	CD-Tracker			-4	-4																																																																					0
+Shield Dye - Green -> Yellow	1			100	18	378	5		2	shld	y58						useitem				CD-Yellow			1	1	state		209	1	1	CD-Tracker			1	1	CD-Green			-1	-1	state		208	-1	-1																																																											0
+Shield Dye - Green -> Purple	1			100	18	378	5		2	shld	y59						useitem				CD-Purple			1	1	state		210	1	1	CD-Tracker			2	2	CD-Green			-1	-1	state		208	-1	-1																																																											0
+Shield Dye - Green -> White	1			100	18	378	5		2	shld	y53						useitem				CD-White			1	1	state		204	1	1	CD-Tracker			-4	-4	CD-Green			-1	-1	state		208	-1	-1																																																											0
+Shield Dye - Green -> Black	1			100	18	378	5		2	shld	y54						useitem				CD-Black			1	1	state		205	1	1	CD-Tracker			-3	-3	CD-Green			-1	-1	state		208	-1	-1																																																											0
+Shield Dye - Green -> Blue	1			100	18	378	5		2	shld	y55						useitem				CD-Blue			1	1	state		206	1	1	CD-Tracker			-2	-2	CD-Green			-1	-1	state		208	-1	-1																																																											0
+Shield Dye - Green -> Red	1			100	18	378	5		2	shld	y56						useitem				CD-Red			1	1	state		207	1	1	CD-Tracker			-1	-1	CD-Green			-1	-1	state		208	-1	-1																																																											0
+Shield Dye - Green -> Clear	1			100	18	378	5		2	shld	y52						useitem				CD-Green			-1	-1	state		208	-1	-1	CD-Tracker			-5	-5																																																																					0
+Shield Dye - Yellow -> Purple	1			100	18	378	6		2	shld	y59						useitem				CD-Purple			1	1	state		210	1	1	CD-Tracker			1	1	CD-Yellow			-1	-1	state		209	-1	-1																																																											0
+Shield Dye - Yellow -> White	1			100	18	378	6		2	shld	y53						useitem				CD-White			1	1	state		204	1	1	CD-Tracker			-5	-5	CD-Yellow			-1	-1	state		209	-1	-1																																																											0
+Shield Dye - Yellow -> Black	1			100	18	378	6		2	shld	y54						useitem				CD-Black			1	1	state		205	1	1	CD-Tracker			-4	-4	CD-Yellow			-1	-1	state		209	-1	-1																																																											0
+Shield Dye - Yellow -> Blue	1			100	18	378	6		2	shld	y55						useitem				CD-Blue			1	1	state		206	1	1	CD-Tracker			-3	-3	CD-Yellow			-1	-1	state		209	-1	-1																																																											0
+Shield Dye - Yellow -> Red	1			100	18	378	6		2	shld	y56						useitem				CD-Red			1	1	state		207	1	1	CD-Tracker			-2	-2	CD-Yellow			-1	-1	state		209	-1	-1																																																											0
+Shield Dye - Yellow -> Green	1			100	18	378	6		2	shld	y57						useitem				CD-Green			1	1	state		208	1	1	CD-Tracker			-1	-1	CD-Yellow			-1	-1	state		209	-1	-1																																																											0
+Shield Dye - Yellow -> Clear	1			100	18	378	6		2	shld	y52						useitem				CD-Yellow			-1	-1	state		209	-1	-1	CD-Tracker			-6	-6																																																																					0
+Shield Dye - Purple -> White	1			100	18	378	7		2	shld	y53						useitem				CD-White			1	1	state		204	1	1	CD-Tracker			-6	-6	CD-Purple			-1	-1	state		210	-1	-1																																																											0
+Shield Dye - Purple -> Black	1			100	18	378	7		2	shld	y54						useitem				CD-Black			1	1	state		205	1	1	CD-Tracker			-5	-5	CD-Purple			-1	-1	state		210	-1	-1																																																											0
+Shield Dye - Purple -> Blue	1			100	18	378	7		2	shld	y55						useitem				CD-Blue			1	1	state		206	1	1	CD-Tracker			-4	-4	CD-Purple			-1	-1	state		210	-1	-1																																																											0
+Shield Dye - Purple -> Red	1			100	18	378	7		2	shld	y56						useitem				CD-Red			1	1	state		207	1	1	CD-Tracker			-3	-3	CD-Purple			-1	-1	state		210	-1	-1																																																											0
+Shield Dye - Purple -> Green	1			100	18	378	7		2	shld	y57						useitem				CD-Green			1	1	state		208	1	1	CD-Tracker			-2	-2	CD-Purple			-1	-1	state		210	-1	-1																																																											0
+Shield Dye - Purple -> Yellow	1			100	18	378	7		2	shld	y58						useitem				CD-Yellow			1	1	state		209	1	1	CD-Tracker			-1	-1	CD-Purple			-1	-1	state		210	-1	-1																																																											0
+Shield Dye - Purple -> Clear	1			100	18	378	7		2	shld	y52						useitem				CD-Purple			-1	-1	state		210	-1	-1	CD-Tracker			-7	-7																																																																					0
+Armor Dye - Normal -> White	1			100	18	378	0		2	tors	y53						useitem				CD-White			1	1	state		211	1	1	CD-Tracker			1	1				-1	-1																																																																0
+Armor Dye - Normal -> Black	1			100	18	378	0		2	tors	y54						useitem				CD-Black			1	1	state		212	1	1	CD-Tracker			2	2				-1	-1																																																																0
+Armor Dye - Normal -> Blue	1			100	18	378	0		2	tors	y55						useitem				CD-Blue			1	1	state		213	1	1	CD-Tracker			3	3				-1	-1																																																																0
+Armor Dye - Normal -> Red	1			100	18	378	0		2	tors	y56						useitem				CD-Red			1	1	state		214	1	1	CD-Tracker			4	4				-1	-1																																																																0
+Armor Dye - Normal -> Green	1			100	18	378	0		2	tors	y57						useitem				CD-Green			1	1	state		215	1	1	CD-Tracker			5	5				-1	-1																																																																0
+Armor Dye - Normal -> Yellow	1			100	18	378	0		2	tors	y58						useitem				CD-Yellow			1	1	state		216	1	1	CD-Tracker			6	6				-1	-1																																																																0
+Armor Dye - Normal -> Purple	1			100	18	378	0		2	tors	y59						useitem				CD-Purple			1	1	state		217	1	1	CD-Tracker			7	7				-1	-1																																																																0
+Armor Dye - White -> Black	1			100	18	378	1		2	tors	y54						useitem				CD-Black			1	1	state		212	1	1	CD-Tracker			1	1	CD-White			-1	-1	state		211	-1	-1																																																											0
+Armor Dye - White -> Blue	1			100	18	378	1		2	tors	y55						useitem				CD-Blue			1	1	state		213	1	1	CD-Tracker			2	2	CD-White			-1	-1	state		211	-1	-1																																																											0
+Armor Dye - White -> Red	1			100	18	378	1		2	tors	y56						useitem				CD-Red			1	1	state		214	1	1	CD-Tracker			3	3	CD-White			-1	-1	state		211	-1	-1																																																											0
+Armor Dye - White -> Green	1			100	18	378	1		2	tors	y57						useitem				CD-Green			1	1	state		215	1	1	CD-Tracker			4	4	CD-White			-1	-1	state		211	-1	-1																																																											0
+Armor Dye - White -> Yellow	1			100	18	378	1		2	tors	y58						useitem				CD-Yellow			1	1	state		216	1	1	CD-Tracker			5	5	CD-White			-1	-1	state		211	-1	-1																																																											0
+Armor Dye - White -> Purple	1			100	18	378	1		2	tors	y59						useitem				CD-Purple			1	1	state		217	1	1	CD-Tracker			6	6	CD-White			-1	-1	state		211	-1	-1																																																											0
+Armor Dye - White -> Clear	1			100	18	378	1		2	tors	y52						useitem				CD-White			-1	-1	state		211	-1	-1	CD-Tracker			-1	-1																																																																					0
+Armor Dye - Black -> Blue	1			100	18	378	2		2	tors	y55						useitem				CD-Blue			1	1	state		213	1	1	CD-Tracker			1	1	CD-Black			-1	-1	state		212	-1	-1																																																											0
+Armor Dye - Black -> Red	1			100	18	378	2		2	tors	y56						useitem				CD-Red			1	1	state		214	1	1	CD-Tracker			2	2	CD-Black			-1	-1	state		212	-1	-1																																																											0
+Armor Dye - Black -> Green	1			100	18	378	2		2	tors	y57						useitem				CD-Green			1	1	state		215	1	1	CD-Tracker			3	3	CD-Black			-1	-1	state		212	-1	-1																																																											0
+Armor Dye - Black -> Yellow	1			100	18	378	2		2	tors	y58						useitem				CD-Yellow			1	1	state		216	1	1	CD-Tracker			4	4	CD-Black			-1	-1	state		212	-1	-1																																																											0
+Armor Dye - Black -> Purple	1			100	18	378	2		2	tors	y59						useitem				CD-Purple			1	1	state		217	1	1	CD-Tracker			5	5	CD-Black			-1	-1	state		212	-1	-1																																																											0
+Armor Dye - Black -> White	1			100	18	378	2		2	tors	y53						useitem				CD-White			1	1	state		211	1	1	CD-Tracker			-1	-1	CD-Black			-1	-1	state		212	-1	-1																																																											0
+Armor Dye - Black -> Clear	1			100	18	378	2		2	tors	y52						useitem				CD-Black			-1	-1	state		212	-1	-1	CD-Tracker			-2	-2																																																																					0
+Armor Dye - Blue -> Red	1			100	18	378	3		2	tors	y56						useitem				CD-Red			1	1	state		214	1	1	CD-Tracker			1	1	CD-Blue			-1	-1	state		213	-1	-1																																																											0
+Armor Dye - Blue -> Green	1			100	18	378	3		2	tors	y57						useitem				CD-Green			1	1	state		215	1	1	CD-Tracker			2	2	CD-Blue			-1	-1	state		213	-1	-1																																																											0
+Armor Dye - Blue -> Yellow	1			100	18	378	3		2	tors	y58						useitem				CD-Yellow			1	1	state		216	1	1	CD-Tracker			3	3	CD-Blue			-1	-1	state		213	-1	-1																																																											0
+Armor Dye - Blue -> Purple	1			100	18	378	3		2	tors	y59						useitem				CD-Purple			1	1	state		217	1	1	CD-Tracker			4	4	CD-Blue			-1	-1	state		213	-1	-1																																																											0
+Armor Dye - Blue -> White	1			100	18	378	3		2	tors	y53						useitem				CD-White			1	1	state		211	1	1	CD-Tracker			-2	-2	CD-Blue			-1	-1	state		213	-1	-1																																																											0
+Armor Dye - Blue -> Black	1			100	18	378	3		2	tors	y54						useitem				CD-Black			1	1	state		212	1	1	CD-Tracker			-1	-1	CD-Blue			-1	-1	state		213	-1	-1																																																											0
+Armor Dye - Blue -> Clear	1			100	18	378	3		2	tors	y52						useitem				CD-Blue			-1	-1	state		213	-1	-1	CD-Tracker			-3	-3																																																																					0
+Armor Dye - Red -> Green	1			100	18	378	4		2	tors	y57						useitem				CD-Green			1	1	state		215	1	1	CD-Tracker			1	1	CD-Red			-1	-1	state		214	-1	-1																																																											0
+Armor Dye - Red -> Yellow	1			100	18	378	4		2	tors	y58						useitem				CD-Yellow			1	1	state		216	1	1	CD-Tracker			2	2	CD-Red			-1	-1	state		214	-1	-1																																																											0
+Armor Dye - Red -> Purple	1			100	18	378	4		2	tors	y59						useitem				CD-Purple			1	1	state		217	1	1	CD-Tracker			3	3	CD-Red			-1	-1	state		214	-1	-1																																																											0
+Armor Dye - Red -> White	1			100	18	378	4		2	tors	y53						useitem				CD-White			1	1	state		211	1	1	CD-Tracker			-3	-3	CD-Red			-1	-1	state		214	-1	-1																																																											0
+Armor Dye - Red -> Black	1			100	18	378	4		2	tors	y54						useitem				CD-Black			1	1	state		212	1	1	CD-Tracker			-2	-2	CD-Red			-1	-1	state		214	-1	-1																																																											0
+Armor Dye - Red -> Blue	1			100	18	378	4		2	tors	y55						useitem				CD-Blue			1	1	state		213	1	1	CD-Tracker			-1	-1	CD-Red			-1	-1	state		214	-1	-1																																																											0
+Armor Dye - Red -> Clear	1			100	18	378	4		2	tors	y52						useitem				CD-Red			-1	-1	state		214	-1	-1	CD-Tracker			-4	-4																																																																					0
+Armor Dye - Green -> Yellow	1			100	18	378	5		2	tors	y58						useitem				CD-Yellow			1	1	state		216	1	1	CD-Tracker			1	1	CD-Green			-1	-1	state		215	-1	-1																																																											0
+Armor Dye - Green -> Purple	1			100	18	378	5		2	tors	y59						useitem				CD-Purple			1	1	state		217	1	1	CD-Tracker			2	2	CD-Green			-1	-1	state		215	-1	-1																																																											0
+Armor Dye - Green -> White	1			100	18	378	5		2	tors	y53						useitem				CD-White			1	1	state		211	1	1	CD-Tracker			-4	-4	CD-Green			-1	-1	state		215	-1	-1																																																											0
+Armor Dye - Green -> Black	1			100	18	378	5		2	tors	y54						useitem				CD-Black			1	1	state		212	1	1	CD-Tracker			-3	-3	CD-Green			-1	-1	state		215	-1	-1																																																											0
+Armor Dye - Green -> Blue	1			100	18	378	5		2	tors	y55						useitem				CD-Blue			1	1	state		213	1	1	CD-Tracker			-2	-2	CD-Green			-1	-1	state		215	-1	-1																																																											0
+Armor Dye - Green -> Red	1			100	18	378	5		2	tors	y56						useitem				CD-Red			1	1	state		214	1	1	CD-Tracker			-1	-1	CD-Green			-1	-1	state		215	-1	-1																																																											0
+Armor Dye - Green -> Clear	1			100	18	378	5		2	tors	y52						useitem				CD-Green			-1	-1	state		215	-1	-1	CD-Tracker			-5	-5																																																																					0
+Armor Dye - Yellow -> Purple	1			100	18	378	6		2	tors	y59						useitem				CD-Purple			1	1	state		217	1	1	CD-Tracker			1	1	CD-Yellow			-1	-1	state		216	-1	-1																																																											0
+Armor Dye - Yellow -> White	1			100	18	378	6		2	tors	y53						useitem				CD-White			1	1	state		211	1	1	CD-Tracker			-5	-5	CD-Yellow			-1	-1	state		216	-1	-1																																																											0
+Armor Dye - Yellow -> Black	1			100	18	378	6		2	tors	y54						useitem				CD-Black			1	1	state		212	1	1	CD-Tracker			-4	-4	CD-Yellow			-1	-1	state		216	-1	-1																																																											0
+Armor Dye - Yellow -> Blue	1			100	18	378	6		2	tors	y55						useitem				CD-Blue			1	1	state		213	1	1	CD-Tracker			-3	-3	CD-Yellow			-1	-1	state		216	-1	-1																																																											0
+Armor Dye - Yellow -> Red	1			100	18	378	6		2	tors	y56						useitem				CD-Red			1	1	state		214	1	1	CD-Tracker			-2	-2	CD-Yellow			-1	-1	state		216	-1	-1																																																											0
+Armor Dye - Yellow -> Green	1			100	18	378	6		2	tors	y57						useitem				CD-Green			1	1	state		215	1	1	CD-Tracker			-1	-1	CD-Yellow			-1	-1	state		216	-1	-1																																																											0
+Armor Dye - Yellow -> Clear	1			100	18	378	6		2	tors	y52						useitem				CD-Yellow			-1	-1	state		216	-1	-1	CD-Tracker			-6	-6																																																																					0
+Armor Dye - Purple -> White	1			100	18	378	7		2	tors	y53						useitem				CD-White			1	1	state		211	1	1	CD-Tracker			-6	-6	CD-Purple			-1	-1	state		217	-1	-1																																																											0
+Armor Dye - Purple -> Black	1			100	18	378	7		2	tors	y54						useitem				CD-Black			1	1	state		212	1	1	CD-Tracker			-5	-5	CD-Purple			-1	-1	state		217	-1	-1																																																											0
+Armor Dye - Purple -> Blue	1			100	18	378	7		2	tors	y55						useitem				CD-Blue			1	1	state		213	1	1	CD-Tracker			-4	-4	CD-Purple			-1	-1	state		217	-1	-1																																																											0
+Armor Dye - Purple -> Red	1			100	18	378	7		2	tors	y56						useitem				CD-Red			1	1	state		214	1	1	CD-Tracker			-3	-3	CD-Purple			-1	-1	state		217	-1	-1																																																											0
+Armor Dye - Purple -> Green	1			100	18	378	7		2	tors	y57						useitem				CD-Green			1	1	state		215	1	1	CD-Tracker			-2	-2	CD-Purple			-1	-1	state		217	-1	-1																																																											0
+Armor Dye - Purple -> Yellow	1			100	18	378	7		2	tors	y58						useitem				CD-Yellow			1	1	state		216	1	1	CD-Tracker			-1	-1	CD-Purple			-1	-1	state		217	-1	-1																																																											0
+Armor Dye - Purple -> Clear	1			100	18	378	7		2	tors	y52						useitem				CD-Purple			-1	-1	state		217	-1	-1	CD-Tracker			-7	-7																																																																					0
+Add Socket - Weapon 1	1			100	18	194	0		2	weap	y60						useitem				sock			1	1																																																																															0
+Add Socket - Weapon 2	1			100	18	194	1		2	weap	y60						useitem				sock			2	2																																																																															0
+Add Socket - Weapon 3	1			100	18	194	2		2	weap	y60						useitem				sock			3	3																																																																															0
+Add Socket - Weapon 4	1			100	18	194	3		2	weap	y60						useitem				sock			4	4																																																																															0
+Add Socket - Weapon 5	1			100	18	194	4		2	weap	y60						useitem				sock			5	5																																																																															0
+Add Socket - Weapon 6	1			100	18	194	5		2	weap	y60						useitem				sock			6	6																																																																															0
+Add Socket - Armor 1	1			100	18	194	0		2	armo	y60						useitem				sock			1	1																																																																															0
+Add Socket - Armor 2	1			100	18	194	1		2	armo	y60						useitem				sock			2	2																																																																															0
+Add Socket - Armor 3	1			100	18	194	2		2	armo	y60						useitem				sock			3	3																																																																															0
+Add Socket - Armor 4	1			100	18	194	3		2	armo	y60						useitem				sock			4	4																																																																															0
+Create Elzix Equalizer - Piercing	1			100	15	361	50		3	y01	Elzix's Equalizer	sppl					useitem				GB-Total			-50	-50																					Elzix's Equalizer				splashs		372	100	1																																																		0
+Create Elzix Equalizer - Cleaving	1			100	15	361	50		3	y01	Elzix's Equalizer	blde					useitem				GB-Total			-50	-50																					Elzix's Equalizer				splashm		370	100	1																																																		0
+Create Elzix Equalizer - Sweeping	1			100	15	361	50		3	y01	Elzix's Equalizer	hamm					useitem				GB-Total			-50	-50																					Elzix's Equalizer				splashn		371	100	1																																																		0
+Reroll - Prep Baal Skiller	1			100	15	382	91		1	cm3,mag							useitem				levelreq			100	100																					y61	91																																																									0
+Reroll - Baal Skiller	1			100	15	361	3		3	y01	y61	cm3,mag					useitem				GB-Total			-3	-3																					y61	91																												cm3,mag	91			levelreq			100	100																					0
+Reroll - Finalize Baal Skiller	1			100					2	cm3,mag	y61						useitem				levelreq			-100	-100																																																																															0
+Reroll - Prep Magic Jewel	1			100	15	382	34		1	jew,mag							useitem				levelreq			100	100																					y62	34																																																									0
+Reroll - Magic Jewel	1			100	15	361	3		3	y01	y62	jew,mag					useitem				GB-Total			-3	-3																					y62	34																												jew,mag	34			levelreq			100	100																					0
+Reroll - Finalize Magic Jewel	1			100					2	jew,mag	y62						useitem				levelreq			-100	-100																																																																															0

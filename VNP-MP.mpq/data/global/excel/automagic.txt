@@ -1,0 +1,138 @@
+Name	version	spawnable	rare	level	maxlevel	levelreq	classspecific	class	classlevelreq	frequency	group	mod1code	mod1param	mod1min	mod1max	mod2code	mod2param	mod2min	mod2max	mod3code	mod3param	mod3min	mod3max	transformcolor	itype1	itype2	itype3	itype4	itype5	itype6	itype7	etype1	etype2	etype3	etype4	etype5	multiply	add
+Fletcher's	100	1	1	1		15				3	300	skilltab	0	1	1										armo	weap											0	0
+Bowyer's	100	1	1	40		30				2	300	skilltab	0	2	2										armo	weap											0	0
+Archer's	100	1		60		45				1	300	skilltab	0	3	3										armo	weap											0	0
+Acrobat's	100	1	1	1		15				3	301	skilltab	1	1	1										armo	weap											0	0
+Gymnast's	100	1	1	40		30				2	301	skilltab	1	2	2										armo	weap											0	0
+Athlete's	100	1		60		45				1	301	skilltab	1	3	3										armo	weap											0	0
+Harpoonist's	100	1	1	1		15				3	302	skilltab	2	1	1										armo	weap											0	0
+Spearmaiden's	100	1	1	40		30				2	302	skilltab	2	2	2										armo	weap											0	0
+Lancer's	100	1		60		45				1	302	skilltab	2	3	3										armo	weap											0	0
+of the Jackal	100	1	1	1		3				6	303	hp		1	5										armo	weap											0	0
+of the Fox	100	1	1	11		8				5	303	hp		6	10										armo	weap											0	0
+of the Wolf	100	1	1	27		20				4	303	hp		11	20										armo	weap											0	0
+of the Tiger	100	1	1	43		35				3	303	hp		21	30										armo	weap											0	0
+of the Mammoth	100	1	1	59		51				2	303	hp		31	40										armo	weap											0	0
+of the Colossus	100	1		75		67				1	303	hp		41	60										armo	weap											0	0
+Lizard's	100	1	1	3		2				4	303	mana		1	5										armo	weap											0	0
+Snake's	100	1	1	12		9				3	303	mana		5	10										armo	weap											0	0
+Serpent's	100	1	1	23		16				2	303	mana		11	20										armo	weap											0	0
+Drake's	100	1	1	34		26				2	303	mana		21	30									cblu	armo	weap											0	0
+Dragon's	100	1	1	45		37				1	303	mana		31	40									cblu	armo	weap											0	0
+Wyrm's	100	1	1	56		48				1	303	mana		41	60									cblu	armo	weap											0	0
+Great Wyrm's	100	1		67		59				1	303	mana		61	80									cblu	armo	weap											0	0
+Shimmering	100	1	1	1		3				8	304	res-all		5	10										armo	weap											0	0
+Rainbow	100	1	1	18		13				7	304	res-all		8	15										armo	weap											0	0
+Scintillating	100	1	1	28		21				6	304	res-all		16	30										armo	weap											0	0
+Prismatic	100	1	1	39		31				5	304	res-all		25	35										armo	weap											0	0
+Chromatic	100	1		50		42				4	304	res-all		35	45										armo	weap											0	0
+Sharp	100	1	1	10		5				3	304	att		15	30	dmg%		10	20						armo	weap											0	0
+Fine	100	1	1	18		13				3	304	att		31	60	dmg%		21	30						armo	weap											0	0
+Warrior's	100	1	1	30		23				2	304	att		61	80	dmg%		31	40						armo	weap											0	0
+Soldier's	100	1	1	42		34				2	304	att		81	100	dmg%		41	50						armo	weap											0	0
+Knight's	100	1	1	50		42				2	304	att		101	121	dmg%		51	65					dgld	armo	weap											0	0
+of Blight	100	1	1	1		3				3	305	pois-min		8	8	pois-max		24	24	pois-len		75	75		armo	weap											0	0
+of Venom	100	1	1	15		11				2	305	pois-min		16	16	pois-max		48	48	pois-len		75	75		armo	weap											0	0
+of Pestilence	100	1	1	25		18				2	305	pois-min		32	32	pois-max		72	72	pois-len		100	100		armo	weap											0	0
+of Anthrax	100	1		33		25				2	305	pois-min		64	64	pois-max		128	128	pois-len		100	100		armo	weap											0	0
+of Replenishing	100	1		1		1				1	306	rep-quant	100												bowq	thro											0	0
+ItemLevel1	100	1		1	1					1	307	item-level		1	1										char	jewl											0	0
+ItemLevel2	100	1		2	2					1	307	item-level		2	2										char	jewl											0	0
+ItemLevel3	100	1		3	3					1	307	item-level		3	3										char	jewl											0	0
+ItemLevel4	100	1		4	4					1	307	item-level		4	4										char	jewl											0	0
+ItemLevel5	100	1		5	5					1	307	item-level		5	5										char	jewl											0	0
+ItemLevel6	100	1		6	6					1	307	item-level		6	6										char	jewl											0	0
+ItemLevel7	100	1		7	7					1	307	item-level		7	7										char	jewl											0	0
+ItemLevel8	100	1		8	8					1	307	item-level		8	8										char	jewl											0	0
+ItemLevel9	100	1		9	9					1	307	item-level		9	9										char	jewl											0	0
+ItemLevel10	100	1		10	10					1	307	item-level		10	10										char	jewl											0	0
+ItemLevel11	100	1		11	11					1	307	item-level		11	11										char	jewl											0	0
+ItemLevel12	100	1		12	12					1	307	item-level		12	12										char	jewl											0	0
+ItemLevel13	100	1		13	13					1	307	item-level		13	13										char	jewl											0	0
+ItemLevel14	100	1		14	14					1	307	item-level		14	14										char	jewl											0	0
+ItemLevel15	100	1		15	15					1	307	item-level		15	15										char	jewl											0	0
+ItemLevel16	100	1		16	16					1	307	item-level		16	16										char	jewl											0	0
+ItemLevel17	100	1		17	17					1	307	item-level		17	17										char	jewl											0	0
+ItemLevel18	100	1		18	18					1	307	item-level		18	18										char	jewl											0	0
+ItemLevel19	100	1		19	19					1	307	item-level		19	19										char	jewl											0	0
+ItemLevel20	100	1		20	20					1	307	item-level		20	20										char	jewl											0	0
+ItemLevel21	100	1		21	21					1	307	item-level		21	21										char	jewl											0	0
+ItemLevel22	100	1		22	22					1	307	item-level		22	22										char	jewl											0	0
+ItemLevel23	100	1		23	23					1	307	item-level		23	23										char	jewl											0	0
+ItemLevel24	100	1		24	24					1	307	item-level		24	24										char	jewl											0	0
+ItemLevel25	100	1		25	25					1	307	item-level		25	25										char	jewl											0	0
+ItemLevel26	100	1		26	26					1	307	item-level		26	26										char	jewl											0	0
+ItemLevel27	100	1		27	27					1	307	item-level		27	27										char	jewl											0	0
+ItemLevel28	100	1		28	28					1	307	item-level		28	28										char	jewl											0	0
+ItemLevel29	100	1		29	29					1	307	item-level		29	29										char	jewl											0	0
+ItemLevel30	100	1		30	30					1	307	item-level		30	30										char	jewl											0	0
+ItemLevel31	100	1		31	31					1	307	item-level		31	31										char	jewl											0	0
+ItemLevel32	100	1		32	32					1	307	item-level		32	32										char	jewl											0	0
+ItemLevel33	100	1		33	33					1	307	item-level		33	33										char	jewl											0	0
+ItemLevel34	100	1		34	34					1	307	item-level		34	34										char	jewl											0	0
+ItemLevel35	100	1		35	35					1	307	item-level		35	35										char	jewl											0	0
+ItemLevel36	100	1		36	36					1	307	item-level		36	36										char	jewl											0	0
+ItemLevel37	100	1		37	37					1	307	item-level		37	37										char	jewl											0	0
+ItemLevel38	100	1		38	38					1	307	item-level		38	38										char	jewl											0	0
+ItemLevel39	100	1		39	39					1	307	item-level		39	39										char	jewl											0	0
+ItemLevel40	100	1		40	40					1	307	item-level		40	40										char	jewl											0	0
+ItemLevel41	100	1		41	41					1	307	item-level		41	41										char	jewl											0	0
+ItemLevel42	100	1		42	42					1	307	item-level		42	42										char	jewl											0	0
+ItemLevel43	100	1		43	43					1	307	item-level		43	43										char	jewl											0	0
+ItemLevel44	100	1		44	44					1	307	item-level		44	44										char	jewl											0	0
+ItemLevel45	100	1		45	45					1	307	item-level		45	45										char	jewl											0	0
+ItemLevel46	100	1		46	46					1	307	item-level		46	46										char	jewl											0	0
+ItemLevel47	100	1		47	47					1	307	item-level		47	47										char	jewl											0	0
+ItemLevel48	100	1		48	48					1	307	item-level		48	48										char	jewl											0	0
+ItemLevel49	100	1		49	49					1	307	item-level		49	49										char	jewl											0	0
+ItemLevel50	100	1		50	50					1	307	item-level		50	50										char	jewl											0	0
+ItemLevel51	100	1		51	51					1	307	item-level		51	51										char	jewl											0	0
+ItemLevel52	100	1		52	52					1	307	item-level		52	52										char	jewl											0	0
+ItemLevel53	100	1		53	53					1	307	item-level		53	53										char	jewl											0	0
+ItemLevel54	100	1		54	54					1	307	item-level		54	54										char	jewl											0	0
+ItemLevel55	100	1		55	55					1	307	item-level		55	55										char	jewl											0	0
+ItemLevel56	100	1		56	56					1	307	item-level		56	56										char	jewl											0	0
+ItemLevel57	100	1		57	57					1	307	item-level		57	57										char	jewl											0	0
+ItemLevel58	100	1		58	58					1	307	item-level		58	58										char	jewl											0	0
+ItemLevel59	100	1		59	59					1	307	item-level		59	59										char	jewl											0	0
+ItemLevel60	100	1		60	60					1	307	item-level		60	60										char	jewl											0	0
+ItemLevel61	100	1		61	61					1	307	item-level		61	61										char	jewl											0	0
+ItemLevel62	100	1		62	62					1	307	item-level		62	62										char	jewl											0	0
+ItemLevel63	100	1		63	63					1	307	item-level		63	63										char	jewl											0	0
+ItemLevel64	100	1		64	64					1	307	item-level		64	64										char	jewl											0	0
+ItemLevel65	100	1		65	65					1	307	item-level		65	65										char	jewl											0	0
+ItemLevel66	100	1		66	66					1	307	item-level		66	66										char	jewl											0	0
+ItemLevel67	100	1		67	67					1	307	item-level		67	67										char	jewl											0	0
+ItemLevel68	100	1		68	68					1	307	item-level		68	68										char	jewl											0	0
+ItemLevel69	100	1		69	69					1	307	item-level		69	69										char	jewl											0	0
+ItemLevel70	100	1		70	70					1	307	item-level		70	70										char	jewl											0	0
+ItemLevel71	100	1		71	71					1	307	item-level		71	71										char	jewl											0	0
+ItemLevel72	100	1		72	72					1	307	item-level		72	72										char	jewl											0	0
+ItemLevel73	100	1		73	73					1	307	item-level		73	73										char	jewl											0	0
+ItemLevel74	100	1		74	74					1	307	item-level		74	74										char	jewl											0	0
+ItemLevel75	100	1		75	75					1	307	item-level		75	75										char	jewl											0	0
+ItemLevel76	100	1		76	76					1	307	item-level		76	76										char	jewl											0	0
+ItemLevel77	100	1		77	77					1	307	item-level		77	77										char	jewl											0	0
+ItemLevel78	100	1		78	78					1	307	item-level		78	78										char	jewl											0	0
+ItemLevel79	100	1		79	79					1	307	item-level		79	79										char	jewl											0	0
+ItemLevel80	100	1		80	80					1	307	item-level		80	80										char	jewl											0	0
+ItemLevel81	100	1		81	81					1	307	item-level		81	81										char	jewl											0	0
+ItemLevel82	100	1		82	82					1	307	item-level		82	82										char	jewl											0	0
+ItemLevel83	100	1		83	83					1	307	item-level		83	83										char	jewl											0	0
+ItemLevel84	100	1		84	84					1	307	item-level		84	84										char	jewl											0	0
+ItemLevel85	100	1		85	85					1	307	item-level		85	85										char	jewl											0	0
+ItemLevel86	100	1		86	86					1	307	item-level		86	86										char	jewl											0	0
+ItemLevel87	100	1		87	87					1	307	item-level		87	87										char	jewl											0	0
+ItemLevel88	100	1		88	88					1	307	item-level		88	88										char	jewl											0	0
+ItemLevel89	100	1		89	89					1	307	item-level		89	89										char	jewl											0	0
+ItemLevel90	100	1		90	90					1	307	item-level		90	90										char	jewl											0	0
+ItemLevel91	100	1		91	91					1	307	item-level		91	91										char	jewl											0	0
+ItemLevel92	100	1		92	92					1	307	item-level		92	92										char	jewl											0	0
+ItemLevel93	100	1		93	93					1	307	item-level		93	93										char	jewl											0	0
+ItemLevel94	100	1		94	94					1	307	item-level		94	94										char	jewl											0	0
+ItemLevel95	100	1		95	95					1	307	item-level		95	95										char	jewl											0	0
+ItemLevel96	100	1		96	96					1	307	item-level		96	96										char	jewl											0	0
+ItemLevel97	100	1		97	97					1	307	item-level		97	97										char	jewl											0	0
+ItemLevel98	100	1		98	98					1	307	item-level		98	98										char	jewl											0	0
+ItemLevel99	100	1		99	99					1	307	item-level		99	99										char	jewl											0	0
+ItemLevel100	100	1		105	105					1	307	item-level		100	100										char	jewl											0	0

@@ -1,0 +1,122 @@
+{
+    "type": "VideoOptionsPanel", "name": "VNPInfo5Panel",
+    "fields": {
+        "priority": 9003,
+        "rect": { "x": -865, "y": 392, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": true
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController",
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$RMDOptionsTableColumn1", "$RMDOptionsTableColumn2" ],
+                        "rowHeight": "$RMDOptionsTableRowHeight",
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 0 },
+                                        "text": "Level Changes",
+                                        "style": "$StyleSettingsTitle",
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 },
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        },
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC11",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC11T",
+                                    "fields": {
+                                        "text": " - Many multi-level areas have been shortened",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC11",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC11T",
+                                    "fields": {
+                                        "text": " - SuperUniques will now show an automap icon",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC11",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC11T",
+                                    "fields": {
+                                        "text": " - Higher drop rate in all areas",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC11",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC11T",
+                                    "fields": {
+                                        "text": " - Boss levels and other important areas are now automatically revealed on automap",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+    ]
+}
